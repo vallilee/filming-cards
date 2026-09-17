@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Product Grab Station</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&display=swap">
+<style>
+  :root{
+    --ground:#f2ece1; --surface:#fffdf8; --raise:#fbf6ee;
+    --ink:#231e17; --dim:#6f665a; --line:#e4dccd;
+    --rust:#c05a29; --rust-ink:#8a3d18;
+    --gold:#b98518; --gold-bg:#f6ecd2;
+    --sage:#557049; --sage-bg:#e6ecdf;
+    --pad-t:env(safe-area-inset-top,0px); --pad-b:env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --ground:#15120e; --surface:#201b15; --raise:#28221b;
+      --ink:#ece3d3; --dim:#9d9082; --line:#352c22;
+      --rust:#e37c46; --rust-ink:#f0a578;
+      --gold:#e0b148; --gold-bg:#332a17;
+      --sage:#93b483; --sage-bg:#232c1c;
+    }
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{margin:0; background:var(--ground); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased; padding-top:var(--pad-t); padding-bottom:var(--pad-b)}
+  img{max-width:100%}
+  .wrap{max-width:640px; margin:0 auto; padding-inline:16px; padding-bottom:40px}
+  header{position:sticky; top:var(--pad-t); z-index:10; background:var(--ground);
+    border-bottom:1px solid var(--line); padding-block:.7rem .55rem}
+  .hrow{display:flex; align-items:center; gap:.55rem; min-height:1.9rem}
+  h1{font-family:"Archivo",system-ui,sans-serif; font-weight:800; font-size:1.1rem;
+    letter-spacing:-.01em; margin:0; text-transform:uppercase}
+  h1 .dot{color:var(--rust)}
+  .back{font-family:"Archivo",system-ui,sans-serif; font-weight:700; font-size:.8rem;
+    background:var(--raise); border:1px solid var(--line); color:var(--ink); border-radius:9px;
+    padding:.35rem .6rem; cursor:pointer; display:flex; gap:.3rem; align-items:center}
+  .crumb{font-family:"Archivo",system-ui,sans-serif; font-weight:700; font-size:.95rem;
+    white-space:nowrap; overflow:hidden; text-overflow:ellipsis; min-width:0}
+  .spacer{flex:1}
+  .icbtn{background:var(--raise); border:1px solid var(--line); color:var(--dim); border-radius:9px;
+    padding:.35rem .55rem; cursor:pointer; font-size:.9rem; line-height:1; text-decoration:none}
+  .icbtn:focus-visible,.back:focus-visible{outline:2px solid var(--rust); outline-offset:2px}
+  .sub{font-size:.7rem; color:var(--dim); margin-top:.35rem}
+  .sub b{color:var(--sage)}
+  .toggle{display:flex; align-items:center; gap:.4rem; margin-top:.5rem; font-size:.75rem; color:var(--dim)}
+  .toggle input{accent-color:var(--rust); width:1.05rem; height:1.05rem}
+
+  .list{display:flex; flex-direction:column; gap:.55rem; margin-top:.8rem}
+  .folder{display:flex; align-items:center; gap:.7rem; background:var(--surface);
+    border:1px solid var(--line); border-radius:13px; padding:.75rem .8rem; cursor:pointer;
+    text-align:left; width:100%; color:var(--ink); font:inherit}
+  .folder .fi{font-size:1.15rem; flex:0 0 auto}
+  .folder .fn{font-family:"Archivo",system-ui,sans-serif; font-weight:700; font-size:.92rem;
+    min-width:0; flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+  .folder .ct{font-family:ui-monospace,Consolas,monospace; font-size:.68rem; color:var(--dim);
+    flex:0 0 auto; font-variant-numeric:tabular-nums}
+  .folder .ct b{color:var(--sage)}
+  .folder .chev{color:var(--dim); flex:0 0 auto}
+  .folder.done .fn{color:var(--dim)}
+
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:14px;
+    padding:.8rem .85rem; display:flex; flex-direction:column; gap:.6rem}
+  .card.used{opacity:.5}
+  .ctop{display:flex; gap:.6rem; align-items:flex-start}
+  .idx{font-family:ui-monospace,Consolas,monospace; font-size:.7rem; font-weight:700; color:var(--dim);
+    background:var(--raise); border:1px solid var(--line); border-radius:8px; padding:.3rem .45rem;
+    min-width:2.1rem; text-align:center; flex:0 0 auto}
+  .cmeta{min-width:0; flex:1}
+  .cname{font-family:ui-monospace,Consolas,monospace; font-weight:600; font-size:.88rem;
+    word-break:break-all; line-height:1.25}
+  .ctags{display:flex; gap:.5rem; flex-wrap:wrap; margin-top:.25rem; font-size:.72rem;
+    color:var(--dim); font-variant-numeric:tabular-nums}
+  .badge{margin-left:auto; flex:0 0 auto; font-family:"Archivo",system-ui,sans-serif; font-weight:700;
+    font-size:.62rem; text-transform:uppercase; letter-spacing:.05em; padding:.22rem .5rem;
+    border-radius:999px; background:var(--sage-bg); color:var(--sage); align-self:flex-start}
+  .actions{display:flex; gap:.45rem}
+  .btn{flex:1; display:flex; align-items:center; justify-content:center; gap:.3rem;
+    font-family:"Archivo",system-ui,sans-serif; font-weight:700; font-size:.8rem; border-radius:10px;
+    padding:.58rem .35rem; cursor:pointer; border:1px solid var(--line); background:var(--raise);
+    color:var(--ink); text-decoration:none; line-height:1; -webkit-tap-highlight-color:transparent;
+    transition:transform .06s}
+  .btn:active{transform:scale(.97)}
+  .btn:focus-visible{outline:2px solid var(--rust); outline-offset:2px}
+  .btn.grab{flex:1.3; background:var(--rust); color:#fff; border-color:var(--rust)}
+  .btn.prev{color:var(--rust-ink)}
+  .btn.used.on{background:var(--sage); color:#0e1509; border-color:var(--sage)}
+
+  .note{background:var(--gold-bg); border:1px solid var(--line); border-radius:11px;
+    padding:.7rem .8rem; font-size:.78rem; color:var(--ink); margin-top:.8rem; line-height:1.45}
+  .note a{color:var(--rust-ink); font-weight:700}
+  .empty{text-align:center; color:var(--dim); padding:2.2rem 1rem; font-size:.9rem}
+  .empty .big{font-size:1.6rem; margin-bottom:.4rem}
+  .spin{text-align:center; color:var(--dim); padding:2rem 1rem; font-size:.85rem}
+  .toast{position:fixed; left:50%; bottom:calc(1rem + var(--pad-b)); transform:translateX(-50%);
+    background:var(--ink); color:var(--ground); font-size:.8rem; padding:.5rem .9rem; border-radius:999px;
+    opacity:0; transition:opacity .2s; pointer-events:none; z-index:50}
+  .toast.show{opacity:.95}
+  footer{margin-top:1.4rem; color:var(--dim); font-size:.7rem; text-align:center; line-height:1.5}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="hrow" id="hrow"></div><div id="hmeta"></div></header>
+  <div id="app"></div>
+  <footer id="foot"></footer>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+const SB_URL = "https://qdouczcurvutcmtqccrw.supabase.co";
+const SB_KEY = "sb_publishable_6C9o-k_2hBsP5_cHNVmrrA_6FCWsD36";
+const SBH = {apikey:SB_KEY, Authorization:"Bearer "+SB_KEY};
+
+const dlUrl = id => "https://drive.google.com/uc?export=download&id=" + id;
+const previewUrl = id => "https://drive.google.com/file/d/" + id + "/view";
+const folderUrl = id => "https://drive.google.com/drive/folders/" + id;
+const esc = s => (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const mb = b => { b=Number(b)||0; return b>=1048576 ? (b/1048576).toFixed(0)+" MB" : Math.max(1,Math.round(b/1024))+" KB"; };
+
+let clips = [], products = [], byProduct = {};
+let view = "products", product = null, loadErr = null, hideUsed = true;
+
+function group(){
+  byProduct = {};
+  for(const c of clips){ (byProduct[c.product] = byProduct[c.product] || []).push(c); }
+  products = Object.keys(byProduct).sort((a,b)=>a.toLowerCase().localeCompare(b.toLowerCase()));
+  for(const p of products) byProduct[p].sort((a,b)=>(a.name||"").localeCompare(b.name||""));
+}
+
+async function loadClips(){
+  loadErr = null; render();
+  try{
+    const r = await fetch(SB_URL+"/rest/v1/footage_clips?select=clip_id,product,folder_id,name,bytes,used&order=product.asc,name.asc",
+      {headers:SBH});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    clips = await r.json(); group();
+  }catch(e){ loadErr = e.message || "load failed"; }
+  render();
+}
+
+let toastT;
+function toast(msg){
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove("show"), 1600);
+}
+
+async function setUsed(c, val){
+  const prev = c.used; c.used = val; render();      // optimistic
+  try{
+    const r = await fetch(SB_URL+"/rest/v1/footage_clips?clip_id=eq."+encodeURIComponent(c.clip_id),
+      {method:"PATCH", headers:{...SBH,"Content-Type":"application/json","Prefer":"return=minimal"},
+       body: JSON.stringify({used:val, used_at: val?new Date().toISOString():null})});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+  }catch(e){ c.used = prev; render(); toast("Couldn't save — check connection"); }
+}
+
+function render(){
+  const hrow=document.getElementById("hrow"), hmeta=document.getElementById("hmeta"),
+        app=document.getElementById("app"), foot=document.getElementById("foot");
+
+  if(view==="products"){
+    hrow.innerHTML = '<h1>Grab Station<span class="dot">.</span></h1><span class="spacer"></span>'
+      + '<button class="icbtn" id="refresh" title="Refresh">↻</button>';
+    if(loadErr){
+      hmeta.innerHTML='<div class="sub">product footage</div>';
+      app.innerHTML='<div class="note">Couldn’t reach the footage database ('+esc(loadErr)+'). Check your connection and tap ↻.</div>';
+      foot.innerHTML=""; wire(); return;
+    }
+    if(!clips.length){ hmeta.innerHTML='<div class="sub">loading&hellip;</div>'; app.innerHTML='<div class="spin">Loading footage&hellip;</div>'; foot.innerHTML=""; return; }
+    const totalUsed = clips.filter(c=>c.used).length;
+    hmeta.innerHTML='<div class="sub"><b>'+clips.length+'</b> clips &middot; '+products.length+' products &middot; '+totalUsed+' used</div>';
+    app.innerHTML='<div class="list">'+products.map(p=>{
+      const cs=byProduct[p], u=cs.filter(c=>c.used).length, all=u===cs.length;
+      return '<button class="folder'+(all?' done':'')+'" data-p="'+esc(p)+'">'
+        +'<span class="fi">'+(all?'✅':'📁')+'</span>'
+        +'<span class="fn">'+esc(p)+'</span>'
+        +'<span class="ct">'+(cs.length-u)+' left<b> / </b>'+cs.length+'</span>'
+        +'<span class="chev">›</span></button>';
+    }).join("")+'</div>';
+    foot.innerHTML='Pick a product &rarr; ▶ preview a clip &rarr; ⬇ grab it to your phone &rarr; ✓ mark used. Marks live in your own Supabase &mdash; synced across devices, no Claude needed.';
+    wire(); return;
+  }
+
+  // clips view
+  const cs = byProduct[product] || [];
+  hrow.innerHTML='<button class="back" id="back">‹ Products</button>'
+    +'<span class="crumb">'+esc(product)+'</span><span class="spacer"></span>'
+    +'<a class="icbtn" href="'+folderUrl(cs[0]?cs[0].folder_id:"")+'" target="_blank" rel="noopener" title="Open in Drive">↗</a>';
+  const u=cs.filter(c=>c.used).length;
+  hmeta.innerHTML='<label class="toggle"><input type="checkbox" id="hu"'+(hideUsed?" checked":"")+'> Hide used ('+u+'/'+cs.length+')</label>';
+  const shown = cs.filter(c=> hideUsed ? !c.used : true);
+  if(!shown.length){
+    app.innerHTML='<div class="empty"><div class="big">✨</div>'+(cs.length?'Every clip here is marked used.':'No clips.')+'</div>';
+    foot.innerHTML=""; wire(); return;
+  }
+  app.innerHTML='<div class="list">'+shown.map((c,i)=>{
+    return '<div class="card'+(c.used?' used':'')+'">'
+      +'<div class="ctop"><span class="idx">'+String(i+1).padStart(2,"0")+'</span>'
+      +'<div class="cmeta"><div class="cname">'+esc(c.name)+'</div>'
+      +'<div class="ctags"><span>'+mb(c.bytes)+'</span></div></div>'
+      +(c.used?'<span class="badge">✓ Used</span>':'')+'</div>'
+      +'<div class="actions">'
+      +'<a class="btn prev" href="'+previewUrl(c.clip_id)+'" target="_blank" rel="noopener">▶ Preview</a>'
+      +'<a class="btn grab" href="'+dlUrl(c.clip_id)+'" target="_blank" rel="noopener">⬇ Grab</a>'
+      +'<button class="btn used'+(c.used?' on':'')+'" data-id="'+c.clip_id+'">✓ Used</button>'
+      +'</div></div>';
+  }).join("")+'</div>';
+  foot.innerHTML=""; wire();
+}
+
+function wire(){
+  const rf=document.getElementById("refresh"); if(rf) rf.onclick=loadClips;
+  const bk=document.getElementById("back"); if(bk) bk.onclick=()=>{view="products"; product=null; render();};
+  const hu=document.getElementById("hu"); if(hu) hu.onchange=()=>{hideUsed=hu.checked; render();};
+  document.querySelectorAll(".folder[data-p]").forEach(b=>b.onclick=()=>{product=b.dataset.p; view="clips"; render();});
+  document.querySelectorAll(".btn.used[data-id]").forEach(b=>b.onclick=()=>{
+    const c=(byProduct[product]||[]).find(x=>x.clip_id===b.dataset.id);
+    if(c) setUsed(c, !c.used);
+  });
+}
+
+render(); loadClips();
+</script>
+</body>
+</html>
