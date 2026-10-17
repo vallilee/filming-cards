@@ -1,4 +1,5 @@
-KALO SCOUT — trending TikTok Shop picks (Victor's filter), newest run first
+MONEY PICKS (formerly Kalo Scout) — trending TikTok Shop picks, newest run first
+Filters: Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing · still-climbing first, then fewest creators · store tags: Walmart #1831 Liverpool.
 Updated every 3 days by the kalo-scout job. Card: https://vallilee.github.io/filming-cards/kalo-scout.html
 
 ========================================================================

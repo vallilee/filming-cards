@@ -5,7 +5,9 @@ Store tags: ✓ = same brand found at that store · ≈ = similar item, differen
 Kalo Scout (new trending picks every 3 days): https://vallilee.github.io/filming-cards/kalo-scout.txt
 
 ========================================================================
-TAB: Trending · All (9 picks + 38 rising) — 47 products
+TAB: 🚀 Breakouts (9 picks + 38 rising) — 47 products
+Formerly: Trending · All
+Filters: Kalodata product ranking, whole platform · last 7 days · launched within 30 days · revenue growth over 100% · affiliate (video sales > 0) · sorted by revenue. Top section = 📸 hand-picked from Kalodata screenshots, fewest creators first.
 
 #01 Corset Sculpt Long Jumpsuit — High-Compression (verify model) | ▲ +738% | $86,310 7d rev | 11 creators $155.99 price 671 sold 55% conv launched 10/01
 #02 Ninja Professional Blender & Nutri Ninja Cups — BL660 | ▲ +314% | $55,040 7d rev | 18 creators $207.99 price 396 sold 72% conv 5% comm launched 08/12
@@ -96,7 +98,14 @@ TAB: Trending · All (9 picks + 38 rising) — 47 products
     https://shop.tiktok.com/us/pdp/1729524239080068306
 
 ========================================================================
-TAB: 🎄 Home Depot / Lowe's (20 seasonal) — 20 products
+TAB: 💰 Money Picks (updated every 3 days) — see https://vallilee.github.io/filming-cards/kalo-scout.txt
+Formerly: 📊 Kalo Scout
+Filters: Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day sales trend still climbing (flat/peaked dropped) · still-climbing first, then fewest creators.
+
+========================================================================
+TAB: 🎄 Holiday Home (20 · HD/Walmart/Target) — 20 products
+Formerly: 🎄 Home Depot / Lowe's
+Filters: Kalodata keyword pulls 9/16 (Christmas, Halloween, Fall, Thanksgiving; 100 each) · home & decor items only · growth 50%+ · revenue $1k+ · top 20 by growth. These are TikTok products, not store stock — tags show Home Depot #6153 Clay, Walmart #1831 Liverpool, Target.
 Store check 2026-10-17 — Home Depot #6153 Clay, Walmart #1831 Liverpool, Target (Google Shopping): Home Depot 1 brand match · Walmart 3 brand matches · Target 1 brand match. ✓ = same brand · ≈ = similar, different brand · online-only = not on the shelf.
 
 #01 🎄 Universal Socket Tools Gifts for Men - Christmas Stocking Stuffers for Men Cool Stuff Ideas Gadgets Birthday Gifts for Him Dad Husband Women Grip Socket Set with Power Drill Adapter (7‑19mm) | ▲ +22,115% | $19,954 7d rev | $19,954 video rev 1,802 sold 10% comm
@@ -180,7 +189,9 @@ Store check 2026-10-17 — Home Depot #6153 Clay, Walmart #1831 Liverpool, Targe
     https://shop.tiktok.com/us/pdp/1732591467722084451
 
 ========================================================================
-TAB: 🏈 Dick's Sporting (10 seasonal) — 10 products
+TAB: 🏈 Holiday Sport (10 · Dick's) — 10 products
+Formerly: 🏈 Dick's Sporting
+Filters: Same 9/16 keyword pulls · sports, outdoor & activewear · growth 55%+ · revenue $1.8k+ · top 10 by growth. TikTok products, not Dick's stock — tags from Dick's via Google Shopping.
 Store check 2026-10-17 — Dick's (Google Shopping): Dick's 0 brand matches. ✓ = same brand · ≈ = similar, different brand · online-only = not on the shelf.
 
 #01 🍂 Women's Two-Piece Sporty, Long Sleeve Top & High-Waisted Pants, Breathable Yoga Gym Running Wear, Spring Fall Fitness Apparel, Activewear Fitness Outfit | ▲ +301% | $17,534 7d rev | $16,943 video rev 657 sold 8% comm
@@ -207,7 +218,9 @@ Store check 2026-10-17 — Dick's (Google Shopping): Dick's 0 brand matches. ✓
     https://shop.tiktok.com/us/pdp/1729417063810502904
 
 ========================================================================
-TAB: 🛒 Member Clubs (Costco·Sam's·BJ's) — 20 products
+TAB: 🛒 Club Check (Costco·Sam's·BJ's) — 20 products
+Formerly: 🛒 Member Clubs
+Filters: The 20 Holiday Home products, searched by brand at Costco, Sam's Club and BJ's (manual check 10/17 — clubs block automated lookups).
 
 #01 🎄 Universal Socket Tools Gifts for Men - Christmas Stocking Stuffers for Men Cool Stuff Ideas Gadgets Birthday Gifts for Him Dad Husband Women Grip Socket Set with Power Drill Adapter (7‑19mm) | ▲ +22,115% | $19,954 7d rev | $19,954 video rev 1,802 sold 10% comm
     https://shop.tiktok.com/us/pdp/1732589394696967059
@@ -253,6 +266,7 @@ TAB: 🛒 Member Clubs (Costco·Sam's·BJ's) — 20 products
 
 ========================================================================
 TAB: Crocs (36) — 36 products
+Filters: Crocs store only · last 7 days · 7-day revenue $1k–$10k · still growing · sorted by growth.
 
 #01 Crocs Adult Classic Horror Clogs, Halloween Shoes | ▲ +600% | $1,184 7d rev | $0 video rev 16 sold 0% comm CROCS US SHOP
     https://shop.tiktok.com/us/pdp/1731833959080170430
@@ -329,6 +343,7 @@ TAB: Crocs (36) — 36 products
 
 ========================================================================
 TAB: Shark (67 live + 32 older) — 99 products
+Filters: Every SKU in the Shark store · last 30 days · sorted by growth · PICK = $1–10k chase pick (9/16) · 'last seen' rows had no sales this window but may still be on shelves.
 
 #01 Shark EveryMess Vacuum and Stain Remover - VX102 | ▲ +17,245% | $1,425,048 30d | 7,161 sold 5% comm
     https://shop.tiktok.com/us/pdp/1732568311243444912
@@ -577,6 +592,7 @@ TAB: Shark (67 live + 32 older) — 99 products
 
 ========================================================================
 TAB: Ninja (82 live + 30 older) — 112 products
+Filters: Every SKU in the Ninja store · last 30 days · sorted by growth · PICK = $1–10k chase pick (9/16) · 'last seen' rows had no sales this window but may still be on shelves.
 
 #01 Ninja SLUSHi Professional Frozen Drink Maker - FS301 | ▲ +7,924% | $453,700 30d | PICK 1,300 sold 5% comm
     PICK
@@ -851,6 +867,7 @@ TAB: Ninja (82 live + 30 older) — 112 products
 
 ========================================================================
 TAB: Medicube (29) — 29 products
+Filters: Medicube store only · last 7 days · 7-day revenue $1k–$10k · still growing · sorted by growth.
 
 #01 [NEW][medicube] Rosemary PDRN Silk Hair Oil | Lightweight Glass Oil | Intensive Damage Care & Frizz Control | Heat Protection, Bergamot Musk Fragrance, Korean Hair Care | ▲ +612% | $7,301 7d rev | $4,080 video rev 446 sold 15% comm medicube US Store
     https://shop.tiktok.com/us/pdp/1732609138188914923
