@@ -91,6 +91,7 @@
   .btn.grab{flex:1.3; background:var(--rust); color:#fff; border-color:var(--rust)}
   .btn.prev{color:var(--rust-ink)}
   .btn.grab.ready{background:var(--sage,#4f6a4a); border-color:var(--sage,#4f6a4a)}
+  .btn.grab:disabled{background:var(--raise); color:var(--dim); border-color:var(--line); cursor:default}
   .filelink{display:block; margin-top:.35rem; font-size:.68rem; color:var(--dim); text-align:center}
   .btn.used.on{background:var(--sage); color:#0e1509; border-color:var(--sage)}
 
@@ -178,6 +179,8 @@ const FILE_URL = id => SYNC_URL.replace("/sync?", "/file/"+encodeURIComponent(id
 const saving = {};   // clip_id -> {state:"loading"|"ready", pct, file}
 
 function saveLabel(id){
+  const c = clips.find(x=>x.clip_id===id);
+  if(c && c.used) return "✓ Saved";
   const s = saving[id];
   if(!s) return "📲 Save to Photos";
   if(s.state==="loading") return "⏳ "+(s.pct!=null ? s.pct+"%" : "Loading…");
@@ -185,10 +188,13 @@ function saveLabel(id){
 }
 function paintSave(id){
   const b=document.querySelector('.btn.grab[data-save="'+id+'"]');
-  if(b){ b.textContent=saveLabel(id); b.classList.toggle("ready", saving[id]?.state==="ready"); }
+  if(b){ b.textContent=saveLabel(id); b.classList.toggle("ready", saving[id]?.state==="ready");
+         const c=clips.find(x=>x.clip_id===id); b.disabled=!!(c&&c.used); }
 }
 
 async function saveToPhotos(id){
+  const used = clips.find(x=>x.clip_id===id);
+  if(used && used.used){ toast("Already saved — tap ✓ Used to un-mark if you need it again"); return; }
   const s = saving[id];
   if(s && s.state==="loading") return;
   if(s && s.state==="ready") return shareFile(id);
@@ -221,12 +227,22 @@ async function shareFile(id){
   if(navigator.canShare && navigator.canShare({files:[f]})){
     try{
       await navigator.share({files:[f]});
-      toast("Saved? Mark ✓ Used once you post it");
+      markGrabbed(id, "Saved to Photos — marked ✓ Used");
     }catch(e){ if(e.name!=="AbortError") toast("Share failed — use the download link below"); }
   }else{                                   // desktop / no file sharing: plain download
     const a=document.createElement("a"); a.href=URL.createObjectURL(f); a.download=f.name;
     document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();}, 4000);
+    markGrabbed(id, "Downloaded — marked ✓ Used");
   }
+}
+
+// One and done: a grabbed clip is marked used (hidden when "Hide used" is on).
+// Tap ✓ Used on it to un-mark if it's ever needed again.
+function markGrabbed(id, msg){
+  const c = clips.find(x=>x.clip_id===id);
+  delete saving[id];
+  if(c && !c.used) setUsed(c, true); else render();
+  toast(msg);
 }
 
 let toastT;
@@ -297,7 +313,7 @@ function render(){
       +'<button class="btn grab" data-save="'+c.clip_id+'">'+saveLabel(c.clip_id)+'</button>'
       +'<button class="btn used'+(c.used?' on':'')+'" data-id="'+c.clip_id+'">✓ Used</button>'
       +'</div>'
-      +'<a class="filelink" href="'+dlUrl(c.clip_id)+'" target="_blank" rel="noopener">or ⬇ download file (Files app)</a>'
+      +(c.used ? '' : '<a class="filelink" data-dl="'+c.clip_id+'" href="'+dlUrl(c.clip_id)+'" target="_blank" rel="noopener">or ⬇ download file (Files app)</a>')
       +'</div>';
   }).join("")+'</div>';
   foot.innerHTML=""; wire();
@@ -309,7 +325,12 @@ function wire(){
   const bk=document.getElementById("back"); if(bk) bk.onclick=()=>{view="products"; product=null; render();};
   const hu=document.getElementById("hu"); if(hu) hu.onchange=()=>{hideUsed=hu.checked; render();};
   document.querySelectorAll(".folder[data-p]").forEach(b=>b.onclick=()=>{product=b.dataset.p; view="clips"; render();});
-  document.querySelectorAll(".btn.grab[data-save]").forEach(b=>b.onclick=()=>saveToPhotos(b.dataset.save));
+  document.querySelectorAll(".btn.grab[data-save]").forEach(b=>{
+    b.onclick=()=>saveToPhotos(b.dataset.save);
+    const c=clips.find(x=>x.clip_id===b.dataset.save); b.disabled=!!(c&&c.used);
+  });
+  document.querySelectorAll(".filelink[data-dl]").forEach(a=>a.addEventListener("click",
+    ()=>setTimeout(()=>markGrabbed(a.dataset.dl, "Downloading — marked ✓ Used"), 300)));
   document.querySelectorAll(".btn.used[data-id]").forEach(b=>b.onclick=()=>{
     const c=(byProduct[product]||[]).find(x=>x.clip_id===b.dataset.id);
     if(c) setUsed(c, !c.used);
