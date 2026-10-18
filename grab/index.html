@@ -102,6 +102,9 @@
     background:var(--ink); color:var(--ground); font-size:.8rem; padding:.5rem .9rem; border-radius:999px;
     opacity:0; transition:opacity .2s; pointer-events:none; z-index:50}
   .toast.show{opacity:.95}
+  .syncbtn{font:700 .78rem/1 inherit; padding:.5rem .7rem; margin-right:.4rem; border-radius:999px;
+    border:1px solid var(--line); background:var(--surface,transparent); color:var(--ink); cursor:pointer}
+  .syncbtn:disabled{opacity:.6; cursor:wait}
   footer{margin-top:1.4rem; color:var(--dim); font-size:.7rem; text-align:center; line-height:1.5}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -118,6 +121,9 @@
 const SB_URL = "https://qdouczcurvutcmtqccrw.supabase.co";
 const SB_KEY = "sb_publishable_6C9o-k_2hBsP5_cHNVmrrA_6FCWsD36";
 const SBH = {apikey:SB_KEY, Authorization:"Bearer "+SB_KEY};
+// footage-sync Cloud Run service: adds new clips from Drive _store-intake-almost-ready.
+// The key only unlocks that harmless, idempotent sync (used marks are never touched).
+const SYNC_URL = "https://footage-sync-456vxk3isq-uc.a.run.app/sync?key=gzOywnMmuazjFl_k";
 
 const dlUrl = id => "https://drive.google.com/uc?export=download&id=" + id;
 const previewUrl = id => "https://drive.google.com/file/d/" + id + "/view";
@@ -146,11 +152,26 @@ async function loadClips(){
   render();
 }
 
+async function syncDrive(){
+  const b=document.getElementById("syncnow"); if(b){b.disabled=true; b.textContent="Syncing…";}
+  toast("Checking Drive for new folders & clips…");
+  try{
+    const r = await fetch(SYNC_URL, {method:"POST"});
+    const j = await r.json();
+    if(!r.ok || !j.ok) throw new Error(j.error || ("HTTP "+r.status));
+    const names = Object.keys(j.added_by_product||{});
+    toast(j.added ? ("Added "+j.added+" new clip"+(j.added>1?"s":"")+(names.length?" · "+names.slice(0,3).join(", ")+(names.length>3?"…":""):""))
+                  : "Up to date — no new clips");
+    await loadClips();
+  }catch(e){ toast("Sync failed — try again"); }
+  if(b){b.disabled=false; b.textContent="⇣ Sync Drive";}
+}
+
 let toastT;
 function toast(msg){
   const t = document.getElementById("toast");
   t.textContent = msg; t.classList.add("show");
-  clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove("show"), 1600);
+  clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove("show"), 3200);
 }
 
 async function setUsed(c, val){
@@ -169,7 +190,8 @@ function render(){
 
   if(view==="products"){
     hrow.innerHTML = '<h1>Grab Station<span class="dot">.</span></h1><span class="spacer"></span>'
-      + '<button class="icbtn" id="refresh" title="Refresh">↻</button>';
+      + '<button class="syncbtn" id="syncnow" title="Add new clips from Drive">⇣ Sync Drive</button>'
+      + '<button class="icbtn" id="refresh" title="Reload list">↻</button>';
     if(loadErr){
       hmeta.innerHTML='<div class="sub">product footage</div>';
       app.innerHTML='<div class="note">Couldn’t reach the footage database ('+esc(loadErr)+'). Check your connection and tap ↻.</div>';
@@ -219,6 +241,7 @@ function render(){
 
 function wire(){
   const rf=document.getElementById("refresh"); if(rf) rf.onclick=loadClips;
+  const sn=document.getElementById("syncnow"); if(sn) sn.onclick=syncDrive;
   const bk=document.getElementById("back"); if(bk) bk.onclick=()=>{view="products"; product=null; render();};
   const hu=document.getElementById("hu"); if(hu) hu.onchange=()=>{hideUsed=hu.checked; render();};
   document.querySelectorAll(".folder[data-p]").forEach(b=>b.onclick=()=>{product=b.dataset.p; view="clips"; render();});
