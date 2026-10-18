@@ -90,6 +90,8 @@
   .btn:focus-visible{outline:2px solid var(--rust); outline-offset:2px}
   .btn.grab{flex:1.3; background:var(--rust); color:#fff; border-color:var(--rust)}
   .btn.prev{color:var(--rust-ink)}
+  .btn.grab.ready{background:var(--sage,#4f6a4a); border-color:var(--sage,#4f6a4a)}
+  .filelink{display:block; margin-top:.35rem; font-size:.68rem; color:var(--dim); text-align:center}
   .btn.used.on{background:var(--sage); color:#0e1509; border-color:var(--sage)}
 
   .note{background:var(--gold-bg); border:1px solid var(--line); border-radius:11px;
@@ -167,6 +169,66 @@ async function syncDrive(){
   if(b){b.disabled=false; b.textContent="⇣ Sync Drive";}
 }
 
+// ---- 📲 Save to Photos -------------------------------------------------------
+// iPhone browsers put plain downloads in the Files app, which TikTok Studio can't
+// see. Instead: stream the clip through footage-sync (Drive links have no CORS),
+// then hand it to the share sheet → "Save Video" → camera roll. iOS only opens the
+// share sheet straight from a tap, so it's two taps: 1) download, 2) save.
+const FILE_URL = id => SYNC_URL.replace("/sync?", "/file/"+encodeURIComponent(id)+"?");
+const saving = {};   // clip_id -> {state:"loading"|"ready", pct, file}
+
+function saveLabel(id){
+  const s = saving[id];
+  if(!s) return "📲 Save to Photos";
+  if(s.state==="loading") return "⏳ "+(s.pct!=null ? s.pct+"%" : "Loading…");
+  return "📲 Tap to save";
+}
+function paintSave(id){
+  const b=document.querySelector('.btn.grab[data-save="'+id+'"]');
+  if(b){ b.textContent=saveLabel(id); b.classList.toggle("ready", saving[id]?.state==="ready"); }
+}
+
+async function saveToPhotos(id){
+  const s = saving[id];
+  if(s && s.state==="loading") return;
+  if(s && s.state==="ready") return shareFile(id);
+  const c = clips.find(x=>x.clip_id===id) || {};
+  saving[id] = {state:"loading", pct:0}; paintSave(id);
+  try{
+    const r = await fetch(FILE_URL(id));
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const total = Number(r.headers.get("X-File-Bytes")) || Number(c.bytes) || 0;
+    const reader = r.body.getReader(), parts = []; let got = 0;
+    for(;;){
+      const {done, value} = await reader.read();
+      if(done) break;
+      parts.push(value); got += value.length;
+      if(total){ const pct=Math.min(99, Math.floor(got*100/total)); if(pct!==saving[id].pct){ saving[id].pct=pct; paintSave(id);} }
+    }
+    const name = c.name || (id+".mp4");
+    const type = /\.mov$/i.test(name) ? "video/quicktime" : (r.headers.get("Content-Type") || "video/mp4");
+    saving[id] = {state:"ready", file:new File(parts, name, {type})};
+    paintSave(id);
+    toast("Ready — tap 📲 again, then Save Video");
+  }catch(e){
+    delete saving[id]; paintSave(id);
+    toast("Couldn't load the clip — try again");
+  }
+}
+
+async function shareFile(id){
+  const f = saving[id].file;
+  if(navigator.canShare && navigator.canShare({files:[f]})){
+    try{
+      await navigator.share({files:[f]});
+      toast("Saved? Mark ✓ Used once you post it");
+    }catch(e){ if(e.name!=="AbortError") toast("Share failed — use the download link below"); }
+  }else{                                   // desktop / no file sharing: plain download
+    const a=document.createElement("a"); a.href=URL.createObjectURL(f); a.download=f.name;
+    document.body.appendChild(a); a.click(); setTimeout(()=>{URL.revokeObjectURL(a.href); a.remove();}, 4000);
+  }
+}
+
 let toastT;
 function toast(msg){
   const t = document.getElementById("toast");
@@ -232,9 +294,11 @@ function render(){
       +(c.used?'<span class="badge">✓ Used</span>':'')+'</div>'
       +'<div class="actions">'
       +'<a class="btn prev" href="'+previewUrl(c.clip_id)+'" target="_blank" rel="noopener">▶ Preview</a>'
-      +'<a class="btn grab" href="'+dlUrl(c.clip_id)+'" target="_blank" rel="noopener">⬇ Grab</a>'
+      +'<button class="btn grab" data-save="'+c.clip_id+'">'+saveLabel(c.clip_id)+'</button>'
       +'<button class="btn used'+(c.used?' on':'')+'" data-id="'+c.clip_id+'">✓ Used</button>'
-      +'</div></div>';
+      +'</div>'
+      +'<a class="filelink" href="'+dlUrl(c.clip_id)+'" target="_blank" rel="noopener">or ⬇ download file (Files app)</a>'
+      +'</div>';
   }).join("")+'</div>';
   foot.innerHTML=""; wire();
 }
@@ -245,6 +309,7 @@ function wire(){
   const bk=document.getElementById("back"); if(bk) bk.onclick=()=>{view="products"; product=null; render();};
   const hu=document.getElementById("hu"); if(hu) hu.onchange=()=>{hideUsed=hu.checked; render();};
   document.querySelectorAll(".folder[data-p]").forEach(b=>b.onclick=()=>{product=b.dataset.p; view="clips"; render();});
+  document.querySelectorAll(".btn.grab[data-save]").forEach(b=>b.onclick=()=>saveToPhotos(b.dataset.save));
   document.querySelectorAll(".btn.used[data-id]").forEach(b=>b.onclick=()=>{
     const c=(byProduct[product]||[]).find(x=>x.clip_id===b.dataset.id);
     if(c) setUsed(c, !c.used);
