@@ -1,0 +1,154 @@
+{
+ "schema_version": 1,
+ "built": "2026-10-18T00:41:40+00:00",
+ "site": "https://vallilee.github.io/filming-cards/kalo-scout.html",
+ "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
+ "runs": [
+  {
+   "day": "2026-10-17",
+   "ran_at": "2026-10-17T15:57:11+00:00",
+   "confirmed": 6,
+   "total": 6,
+   "products": [
+    {
+     "rank": 1,
+     "name": "BASED Deluxe Straight/Wavy Hair Kit | Shampoo, Conditioner, Texture Powder, Hair Clay, Pomade, Sea Salt Spray + Wooden Comb | Science-Backed, High Performance",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1732307769700553014",
+     "tiktok_product_id": "1732307769700553014",
+     "model_numbers": [],
+     "growth_pct": 38.0,
+     "revenue_usd": 43960,
+     "revenue_window": "yday rev",
+     "details": "$70.00 price 10% comm 273 creators 628 sold yesterday Kalo page 5",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "in_store",
+       "description": "different brand: Function of Beauty Custom Wavy Hair Shampoo Base · $9.99 · Google shows it nearby",
+       "url": "https://www.google.com/search?ibp=oshop&q=BASED DELUXE STRAIGHT WAVY HAIR SHAMPOO CONDITIONER Target&prds=catalogid:16032805966452144791,productid:11284577254818176653,headlineOfferDocid:828653713646226923,imageDocid:17935399822012727873,rds:PC_1514647068042802943|PROD_PC_1514647068042802943,gpcid:1514647068042802943,mid:576462898020305964,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "JOYIN Advent Calendar 2026 Christmas Stress Relief Toy 24PCS Squeeze",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1732706179292893191",
+     "tiktok_product_id": "1732706179292893191",
+     "model_numbers": [],
+     "growth_pct": 377.0,
+     "revenue_usd": 33072,
+     "revenue_window": "yday rev",
+     "details": "$39.00 price 10% comm 275 creators 848 sold yesterday Kalo page 9",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "description": "different brand: 2026 Squishy Christmas Advent Calendar Squeeze T · $15.99 · online only (LSQEDY)",
+       "url": "https://www.walmart.com/ip/2026-Squishy-Christmas-Advent-Calendar-Squeeze-Toy-Calendar-24-Days-of-Dumpling-Joy-Stress-Relief-Toys-Set-Cute-Festive-Holiday-Party-Favors/20939009935?classType=REGULAR"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
+     "tiktok_product_id": "1729411670017675346",
+     "model_numbers": [],
+     "growth_pct": 64.0,
+     "revenue_usd": 52332,
+     "revenue_window": "yday rev",
+     "details": "$84.00 price 13% comm 467 creators 623 sold yesterday Kalo page 4",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "check_store",
+       "description": "KODAK Dock Plus Retro 4x6 Inch PD460 Photo Print · $119.99 · sold by Target — local stock unknown — same brand, confirm it's the exact item",
+       "url": "https://www.google.com/search?ibp=oshop&q=KODAK DOCK PLUS PHOTO PRINTER SHEETS DOCKING Target&prds=productid:13517666467055308046,headlineOfferDocid:13517666467055308046,imageDocid:4418564485027221028,rds:PC_10926059996845980998|PROD_PC_10926059996845980998,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "SHAPELLX Sheer-Panel with Fleece Lined Tights Stay-Warm Tummy Control Sheer Effect Tights Bodysuit Black Basic",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1732519307808379520",
+     "tiktok_product_id": "1732519307808379520",
+     "model_numbers": [],
+     "growth_pct": 85.0,
+     "revenue_usd": 46438,
+     "revenue_window": "yday rev",
+     "details": "$31.00 price 10% comm 1,418 creators 1,498 sold yesterday Kalo page 5",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "description": "different brand: Memoi Women's Sheer Effect Fleece Lined Tights · $28.95 · sold by Target — local stock unknown",
+       "url": "https://www.google.com/search?ibp=oshop&q=SHAPELLX SHEER PANEL FLEECE LINED TIGHTS STAY Target&prds=catalogid:2897397964235563205,productid:10254474471202662911,headlineOfferDocid:1650700908473604556,imageDocid:17593284074366885698,gpcid:12550708046950849021,mid:576462566251444533,pvt:a&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "GOPURE Tighten & Smooth Belly Firming Cream",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1731398973952594329",
+     "tiktok_product_id": "1731398973952594329",
+     "model_numbers": [],
+     "growth_pct": 143.0,
+     "revenue_usd": 124800,
+     "revenue_window": "yday rev",
+     "details": "$39.00 price 21% comm 2,688 creators 3,200 sold yesterday Kalo page 1",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "in_store",
+       "description": "Gopure Tighten & Smooth Belly Cream · $29.99 · Google shows it nearby — same brand, confirm it's the exact item",
+       "url": "https://www.google.com/search?ibp=oshop&q=GOPURE TIGHTEN SMOOTH BELLY FIRMING CREAM Target&prds=catalogid:10536558758128089709,productid:6258447995703505090,headlineOfferDocid:15091108924698367800,imageDocid:1982106552006927990,rds:PC_9223648449547101005|PROD_PC_9223648449547101005,gpcid:9223648449547101005,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "[NEW] [medicube] PDRN Collagen Gua Sha Neck Wrinkle Cream | Built-In Gua Sha Massager with Volufiline 5% + PDRN | Firming, Contour Care for the Look of Fine Lines, Jawline, Neck, Décolleté,Underarms, Chest, Legs, Shoulder | Massage Cream | Korean Skincare",
+     "tiktok_url": "https://shop.tiktok.com/us/pdp/1732399179294806251",
+     "tiktok_product_id": "1732399179294806251",
+     "model_numbers": [],
+     "growth_pct": 96.0,
+     "revenue_usd": 153900,
+     "revenue_window": "yday rev",
+     "details": "$30.00 price 13% comm 3,374 creators 5,130 sold yesterday Kalo page 1",
+     "flags": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "in_store",
+       "description": "Medicube PDRN Pink Collagen Capsule Cream, 1.94 · $21.97 · sold by Walmart — check shelf at Liverpool — same brand, confirm it's the exact item",
+       "url": "https://www.walmart.com/ip/Medicube-RED-SUCCINIC-PEELING-PAD-2024/20068706439?classType=REGULAR&athbdg=L1103"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
