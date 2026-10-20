@@ -1,9 +1,254 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-18T00:46:22+00:00",
+ "built_at": "2026-10-20T00:14:18+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-10-19",
+   "ran_at": "2026-10-20T00:14:14+00:00",
+   "still_climbing": 8,
+   "total_picks": 11,
+   "products": [
+    {
+     "rank": 1,
+     "name": "BISSELL® Pet Hair Eraser® Allergen Lift-Off® Vacuum with Tangle-Free Brush Roll, HEPA Sealed Allergen System, Detachable Pod and 2 Specialty Tools",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732629192126665577",
+     "tiktok_product_id": "1732629192126665577",
+     "model_numbers": [],
+     "growth_pct": 78.0,
+     "revenue_usd": 72861,
+     "revenue_period": "yday rev",
+     "stats_text": "$149.00 price 10% comm 261 creators 489 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "Bissell Pet Hair Eraser DualBrush Upright Vacuum · $285.00 · online only (GO JOE & CO) — same brand, confirm it's the exact item",
+       "store_url": "https://www.walmart.com/ip/Bissell-Pet-Hair-Eraser-DualBrush-Upright-Vacuum-Two-Brush-Rolls-DualBrush-Self-Cleaning-Technology-HEPA-Sealed-Allergen-System-Bright-FurFinder-Head/20020053003?classType=REGULAR"
+      },
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "in_store",
+       "matched_item": "Bissell Pet Hair Eraser Lithium Ion Cordless Han · $89.99 · Google shows it nearby — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=BISSELL HAIR ERASER ALLERGEN LIFT VACUUM TANGLE Target&prds=catalogid:1098033556841865242,productid:10449684038479718047,headlineOfferDocid:1222763560429172657,imageDocid:6646919575833491983,rds:PC_3541010643121183300|PROD_PC_3541010643121183300,gpcid:3541010643121183300,mid:576462567155192419,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Ninja PossibleCooker Pro Multicooker - MC1001",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729471925145210965",
+     "tiktok_product_id": "1729471925145210965",
+     "model_numbers": [
+      "MC1001"
+     ],
+     "growth_pct": 8272.0,
+     "revenue_usd": 299130,
+     "revenue_period": "yday rev",
+     "stats_text": "$169.00 price 10% comm 727 creators 1,770 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "Ninja 14-in-1 PossibleCooker PRO 8.5-qt Multi-Co · $129.99 · online only (Shark Ninja Store)",
+       "store_url": "https://www.walmart.com/ip/Ninja-Foodi-8-5-Qt-PossibleCooker-PRO-Gray-MC1001/1902575826?classType=VARIANT&athbdg=L1103"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: Ninja Foodi PossibleCooker PRO 8.5 Quart Multi-C · $129.99 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Ninja MC1001 Target&prds=catalogid:6231911868966111521,productid:605216726750676964,headlineOfferDocid:1666243057733820320,imageDocid:16434400950538017263,rds:PC_12356308008540199101|PROD_PC_12356308008540199101,gpcid:12356308008540199101,mid:576462720996759442,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "MAC Nude Icons Lip Duo - Lip Pencil + M·A·Cximal Sleek Satin Lipstick",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731601510632886937",
+     "tiktok_product_id": "1731601510632886937",
+     "model_numbers": [],
+     "growth_pct": 68.0,
+     "revenue_usd": 33056,
+     "revenue_period": "yday rev",
+     "stats_text": "$32.00 price 19% comm 734 creators 1,033 sold yesterday Kalo page 8",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Ulta",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: MAC Macximal Sleek Satin Lipstick · $25.00 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=NUDE ICONS PENCIL CXIMAL SLEEK SATIN Ulta Beauty&prds=catalogid:10317294514917172275,productid:16179900803415422850,headlineOfferDocid:13766896762255832247,imageDocid:17215785809424286070,rds:PC_8879417639859892380|PROD_PC_8879417639859892380,gpcid:8879417639859892380,mid:576462791643631559,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+       "store": "Sephora",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: MAC Macximal Sleek Satin Lipstick · $25.00 · sold by Sephora — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=NUDE ICONS PENCIL CXIMAL SLEEK SATIN Sephora&prds=catalogid:10317294514917172275,productid:16179900803415422850,headlineOfferDocid:8266269276042827268,imageDocid:15844885574491102498,rds:PC_8879417639859892380|PROD_PC_8879417639859892380,gpcid:8879417639859892380,mid:576462791643631559,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "WUDS R36S Retro Video Handheld Console Linux System 3.5 in IPS Screen Built in 3000mAH Battery 32G+64G TF Card for Christmas, Thanksgiving, Holiday Gift,back to school,back to school haul",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729555160564077031",
+     "tiktok_product_id": "1729555160564077031",
+     "model_numbers": [
+      "R36S"
+     ],
+     "growth_pct": 104.0,
+     "revenue_usd": 81264,
+     "revenue_period": "yday rev",
+     "stats_text": "$48.00 price 10% comm 848 creators 1,693 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: R36S Open Source Handheld Game Console with Larg · price ? · online only (3rd-party seller)",
+       "store_url": "https://www.walmart.com/ip/R36S-Open-Source-Handheld-Game-Console-with-Large-Screen-High-Memory-Long-Battery-Life-Yellow-64G/18494061584"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "SHAPELLX Sheer-Panel with Fleece Lined Tights Stay-Warm Tummy Control Sheer Effect Tights Bodysuit Black Basic",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732519307808379520",
+     "tiktok_product_id": "1732519307808379520",
+     "model_numbers": [],
+     "growth_pct": 111.0,
+     "revenue_usd": 72695,
+     "revenue_period": "yday rev",
+     "stats_text": "$31.00 price 10% comm 1,417 creators 2,345 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 6,
+     "name": "YIANNA V-Shaped Shapewear Moldeadoras Faja for Women Tummy Control with Zipper Closure Womenswear Moldadoras Faja",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732302921291305752",
+     "tiktok_product_id": "1732302921291305752",
+     "model_numbers": [],
+     "growth_pct": 100.0,
+     "revenue_usd": 44677,
+     "revenue_period": "yday rev",
+     "stats_text": "$43.00 price 14% comm 1,638 creators 1,039 sold yesterday Kalo page 5",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 7,
+     "name": "tarte CC color-correcting tinted serum",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732403113516372924",
+     "tiktok_product_id": "1732403113516372924",
+     "model_numbers": [],
+     "growth_pct": 84.0,
+     "revenue_usd": 68712,
+     "revenue_period": "yday rev",
+     "stats_text": "$42.00 price 19% comm 2,499 creators 1,636 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Ulta",
+       "match": "exact",
+       "availability": "in_store",
+       "matched_item": "tarte CC Color-Correcting Tinted Serum · $42.00 · Google shows it nearby — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Tarte COLOR CORRECTING TINTED SERUM Ulta Beauty&prds=catalogid:16694382990657243356,productid:6707940187764453131,headlineOfferDocid:17027198493890535557,imageDocid:12238629303902065545,rds:PC_15478343829529616703|PROD_PC_15478343829529616703,gpcid:15478343829529616703,mid:576462562944055714,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+       "store": "Sephora",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: Tarte BB Blur Tinted Moisturizer Broad Spectrum · $18.00 · sold by Sephora — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Tarte COLOR CORRECTING TINTED SERUM Sephora&prds=catalogid:8735503706849971911,productid:107599331988469801,headlineOfferDocid:703924534790640245,imageDocid:16629104535854676643,rds:PC_12118538759030389013|PROD_PC_12118538759030389013,gpcid:12118538759030389013,mid:576462913760077835,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 8,
+     "name": "GOPURE Tighten & Smooth Belly Firming Cream",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731398973952594329",
+     "tiktok_product_id": "1731398973952594329",
+     "model_numbers": [],
+     "growth_pct": 41.0,
+     "revenue_usd": 114075,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 21% comm 2,680 creators 2,925 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "JOYIN Advent Calendar 2026 Christmas Stress Relief Toy 24PCS Squeeze",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732706179292893191",
+     "tiktok_product_id": "1732706179292893191",
+     "model_numbers": [],
+     "growth_pct": 95.0,
+     "revenue_usd": 30342,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 10% comm ? creators 778 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "2 Packs Sparkling Energy Drink",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732283818831483835",
+     "tiktok_product_id": "1732283818831483835",
+     "model_numbers": [],
+     "growth_pct": 46.0,
+     "revenue_usd": 30100,
+     "revenue_period": "yday rev",
+     "stats_text": "$43.00 price 14% comm ? creators 700 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "PrettyGarden Womens Sweatsuits 2 Piece Set Casual Winter Long Sleeve Hoodie Loose Wide Leg Sweatpants Fall Tracksuit",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732087441999630703",
+     "tiktok_product_id": "1732087441999630703",
+     "model_numbers": [],
+     "growth_pct": 510.0,
+     "revenue_usd": 27456,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 10% comm ? creators 704 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    }
+   ]
+  },
   {
    "run_date": "2026-10-17",
    "ran_at": "2026-10-17T15:57:11+00:00",
