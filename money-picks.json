@@ -1,9 +1,127 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-20T00:14:18+00:00",
+ "built_at": "2026-10-23T00:11:47+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-10-22",
+   "ran_at": "2026-10-23T00:11:43+00:00",
+   "still_climbing": 5,
+   "total_picks": 5,
+   "products": [
+    {
+     "rank": 1,
+     "name": "Strawberry Confection Girl Costume",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731846533953131354",
+     "tiktok_product_id": "1731846533953131354",
+     "model_numbers": [],
+     "growth_pct": 688.0,
+     "revenue_usd": 41250,
+     "revenue_period": "yday rev",
+     "stats_text": "$165.00 price 10% comm 39 creators 250 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: Orange Blossom Strawberry Shortcake Girl's Costu · $39.99 · online only (HalloweenCostumes)",
+       "store_url": "https://www.walmart.com/ip/Orange-Blossom-Strawberry-Shortcake-Girl-s-Costume-TV-Show-Costumes/20896906439?classType=VARIANT"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "[Estée Lauder] Beautiful Perfumed Body Powder | Fragrance | Luxury | Floral Scented | Shimmer",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729389459812029421",
+     "tiktok_product_id": "1729389459812029421",
+     "model_numbers": [],
+     "growth_pct": 424.0,
+     "revenue_usd": 26180,
+     "revenue_period": "yday rev",
+     "stats_text": "$68.00 price 12% comm 57 creators 385 sold yesterday Kalo page 6",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: Estee Lauder Beautiful Perfumed Body Powder with · $53.55 · online only (Local Love LLC)",
+       "store_url": "https://www.walmart.com/ip/Estee-Lauder-Beautiful-Perfumed-Body-Powder-with-Puff-For-Women-3-5-oz-100g-NEW-IN-BOX/2955829476?classType=REGULAR"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "【2026 New Production】CMF Buds Pro 2 Wireless Earbuds with Adjustable Noise Cancellation, ChatGPT Integration, Hi-Res Audio with LDAC, Electronic Headset, 50 dB Hybrid Noise Cancelling, IP55 Waterproof, 43H Play Time, 6 HD Mics Headphones,summerwins summer",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729548220307968132",
+     "tiktok_product_id": "1729548220307968132",
+     "model_numbers": [
+      "IP55"
+     ],
+     "growth_pct": 99990.0,
+     "revenue_usd": 23030,
+     "revenue_period": "yday rev",
+     "stats_text": "$49.00 price 10% comm 173 creators 470 sold yesterday Kalo page 9",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 4,
+     "name": "WUDS R36S Retro Video Handheld Console Linux System 3.5 in IPS Screen Built in 3000mAH Battery 32G+64G TF Card for Christmas, Thanksgiving, Holiday Gift,back to school,back to school haul",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729555160564077031",
+     "tiktok_product_id": "1729555160564077031",
+     "model_numbers": [
+      "R36S"
+     ],
+     "growth_pct": 55.0,
+     "revenue_usd": 63744,
+     "revenue_period": "yday rev",
+     "stats_text": "$48.00 price 10% comm 926 creators 1,328 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 5,
+     "name": "Mellow Sleep | MarshMellow Comforter - Double-Stuffed Ultra-Soft A-Class Fabric Heat-Adaptive Vegan Fill OEKO-TEX Certified Machine Washable",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732017379984117841",
+     "tiktok_product_id": "1732017379984117841",
+     "model_numbers": [],
+     "growth_pct": 127.0,
+     "revenue_usd": 88506,
+     "revenue_period": "yday rev",
+     "stats_text": "$99.00 price 13% comm 2,623 creators 894 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "Mellow Sleep| MarshMellow Comforter - Double-Stu · $220.00 · online only (Lucy Carter) — same brand, confirm it's the exact item",
+       "store_url": "https://www.walmart.com/ip/Mellow-Sleep-MarshMellow-Comforter-Double-Stuffed-Ultra-Soft-A-Class-Fabric-Heat-Adaptive-Vegan-Fill-OEKO-TEX-Certified-Machine-Washable/20780774410?classType=VARIANT"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: Mellow MarshMellow Comforter · $135.99 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Mellow SLEEP MARSHMELLOW COMFORTER DOUBLE STUFFED ULTRA Target&prds=catalogid:14942078388903576,productid:11490522130331702752,headlineOfferDocid:12338166306837663530,imageDocid:4442356671158736645,gpcid:8920161055966176100,mid:576462887314670284,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    }
+   ]
+  },
   {
    "run_date": "2026-10-19",
    "ran_at": "2026-10-20T00:14:14+00:00",
