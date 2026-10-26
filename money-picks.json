@@ -1,9 +1,296 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-23T00:11:47+00:00",
+ "built_at": "2026-10-26T00:13:38+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-10-25",
+   "ran_at": "2026-10-26T00:13:34+00:00",
+   "still_climbing": 6,
+   "total_picks": 17,
+   "products": [
+    {
+     "rank": 1,
+     "name": "Strawberry Confection Girl Costume",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731846533953131354",
+     "tiktok_product_id": "1731846533953131354",
+     "model_numbers": [],
+     "growth_pct": 74.0,
+     "revenue_usd": 51315,
+     "revenue_period": "yday rev",
+     "stats_text": "$165.00 price 10% comm 90 creators 311 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: Orange Blossom Strawberry Shortcake Girl's Costu · $47.98 · online only (HalloweenCostumes)",
+       "store_url": "https://www.walmart.com/ip/Orange-Blossom-Strawberry-Shortcake-Girl-s-Costume-TV-Show-Costumes/20902660349?classType=VARIANT"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "HEYDUDE Austin Edge Lounge Suede - Women's Comfortable Slip on Boots",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732480763613450800",
+     "tiktok_product_id": "1732480763613450800",
+     "model_numbers": [],
+     "growth_pct": 955.0,
+     "revenue_usd": 90288,
+     "revenue_period": "yday rev",
+     "stats_text": "$99.00 price 10% comm 269 creators 912 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: HEYDUDE Women's Austin Edge Leather · $49.99 · sold by Target — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=HeyDude AUSTIN EDGE LOUNGE SUEDE COMFORTABLE SLIP Target&prds=catalogid:5394855965907907976,productid:18036745374624858275,headlineOfferDocid:6641090784784396019,imageDocid:14602156881394791112,rds:PC_16801962427515543184|PROD_PC_16801962427515543184,gpcid:16801962427515543184,mid:576462523617367186,pvt:a&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Crocs Women’s Dylan Platform Elevated Clogs",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732088511267312574",
+     "tiktok_product_id": "1732088511267312574",
+     "model_numbers": [],
+     "growth_pct": 189.0,
+     "revenue_usd": 50232,
+     "revenue_period": "yday rev",
+     "stats_text": "$69.00 price 10% comm 446 creators 728 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 4,
+     "name": "Beauty by Earth Self Tanner Body Lotion - Best Gradual Natural Bronzed Sunless Hydrating Streak Free Tanning Glow Made in USA, Vegan Cruelty Free Pregnancy Safe",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729412010027750270",
+     "tiktok_product_id": "1729412010027750270",
+     "model_numbers": [],
+     "growth_pct": 340.0,
+     "revenue_usd": 44330,
+     "revenue_period": "yday rev",
+     "stats_text": "$31.00 price 13% comm 503 creators 1,430 sold yesterday Kalo page 4",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Ulta",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: ULTA Beauty Collection Gradual Self Tan Water Mo · $13.00 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Beauty EARTH SELF TANNER BODY LOTION GRADUAL Ulta Beauty&prds=catalogid:10865072350198819169,productid:14875670463490471704,headlineOfferDocid:3584914173296389257,imageDocid:13620304409741649991,rds:PC_1412968396880885399|PROD_PC_1412968396880885399,gpcid:1412968396880885399,mid:576462846308803034,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Crocs Women's Dylan Platform Clogs, Platform Shoes",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729553403015566270",
+     "tiktok_product_id": "1729553403015566270",
+     "model_numbers": [],
+     "growth_pct": 262.0,
+     "revenue_usd": 46697,
+     "revenue_period": "yday rev",
+     "stats_text": "$49.00 price 10% comm 699 creators 953 sold yesterday Kalo page 4",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 6,
+     "name": "[NEW] [medicube] Rosemary PDRN Scalp-to-Hair Strengthening Care | 2-Step to 6-Step Full Routine Set | Hair Thinning Care for Dry & Oily, Damaged, Frizzy Hair, Oily Flaky-looking Scalp | Korea Hair Care",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732224555871080683",
+     "tiktok_product_id": "1732224555871080683",
+     "model_numbers": [],
+     "growth_pct": 31.0,
+     "revenue_usd": 88445,
+     "revenue_period": "yday rev",
+     "stats_text": "$35.00 price 14% comm 3,790 creators 2,527 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 7,
+     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
+     "tiktok_product_id": "1729411670017675346",
+     "model_numbers": [],
+     "growth_pct": 35.0,
+     "revenue_usd": 41328,
+     "revenue_period": "yday rev",
+     "stats_text": "$84.00 price 13% comm ? creators 492 sold yesterday Kalo page 5",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 8,
+     "name": "VEWO 11L Large Dog Water Fountain, 5L Drinking Area + 6L Reserve Tank, Deep Anti-Spill Bowl for Big Dogs & Multi-Pet Homes, Automatic Flowing Water Dispenser with Multi-Layer Filtration, BPA-Free, Ultra Quiet & Easy to Clean",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732352140767039785",
+     "tiktok_product_id": "1732352140767039785",
+     "model_numbers": [],
+     "growth_pct": 98.0,
+     "revenue_usd": 40227,
+     "revenue_period": "yday rev",
+     "stats_text": "$69.00 price 10% comm ? creators 583 sold yesterday Kalo page 5",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "SNOWCLAD 10/14-Piece Thermal Hybrid Nonstick Metal Cookware Set with Lids, Including Saucepan, Induction Compatible, Oven & Dishwasher Safe, PFOA-Free Non Stick Pot Sets for Cooking,familyfun",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731040771305934988",
+     "tiktok_product_id": "1731040771305934988",
+     "model_numbers": [],
+     "growth_pct": 49.0,
+     "revenue_usd": 35760,
+     "revenue_period": "yday rev",
+     "stats_text": "$149.00 price 11% comm ? creators 240 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "Crocs Adult Crafted Western Animal Print Clogs",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732465246391145406",
+     "tiktok_product_id": "1732465246391145406",
+     "model_numbers": [],
+     "growth_pct": 422.0,
+     "revenue_usd": 34049,
+     "revenue_period": "yday rev",
+     "stats_text": "$79.00 price 10% comm ? creators 431 sold yesterday Kalo page 8",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "Cata-Kor NMN Supplement Powder 1000 mg - Pure NMN Powder 100 Servings 105g | NAD Supplement Alternative - High Purity NMN Powder 1000 mg per scoop & 100 servings, Third-party tested, Made in the USA",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732518764939481310",
+     "tiktok_product_id": "1732518764939481310",
+     "model_numbers": [],
+     "growth_pct": 143.0,
+     "revenue_usd": 33864,
+     "revenue_period": "yday rev",
+     "stats_text": "$34.00 price 21% comm ? creators 996 sold yesterday Kalo page 8",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 12,
+     "name": "Crocs Men's and Women's Slippers - Classic Lined Clogs, Indoor House Shoes",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729562305804538814",
+     "tiktok_product_id": "1729562305804538814",
+     "model_numbers": [],
+     "growth_pct": 680.0,
+     "revenue_usd": 33394,
+     "revenue_period": "yday rev",
+     "stats_text": "$59.00 price 10% comm ? creators 566 sold yesterday Kalo page 8",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 13,
+     "name": "YIANNA Overbust Fajas Colombianas Shapewear for Women Tummy Control Brief Shaper Girdles Compression Garment Compression Tummy Tuck High Compression Faja",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732088899760984856",
+     "tiktok_product_id": "1732088899760984856",
+     "model_numbers": [],
+     "growth_pct": 48.0,
+     "revenue_usd": 33115,
+     "revenue_period": "yday rev",
+     "stats_text": "$37.00 price 19% comm ? creators 895 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 14,
+     "name": "Crocs Women's Dylan Animal Platform Clogs with Metallic Buckle",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732523300086256574",
+     "tiktok_product_id": "1732523300086256574",
+     "model_numbers": [],
+     "growth_pct": 45.0,
+     "revenue_usd": 31047,
+     "revenue_period": "yday rev",
+     "stats_text": "$79.00 price 10% comm ? creators 393 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 15,
+     "name": "HEYDUDE Austin Lift Clog - Comfortable Slip on Shoes for Women",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732435788029006384",
+     "tiktok_product_id": "1732435788029006384",
+     "model_numbers": [],
+     "growth_pct": 255.0,
+     "revenue_usd": 30257,
+     "revenue_period": "yday rev",
+     "stats_text": "$79.00 price 10% comm ? creators 383 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 16,
+     "name": "Crocs Women's Classic Ballet Flats with Metallic Buckle",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732511139791147966",
+     "tiktok_product_id": "1732511139791147966",
+     "model_numbers": [],
+     "growth_pct": 189.0,
+     "revenue_usd": 30086,
+     "revenue_period": "yday rev",
+     "stats_text": "$49.00 price 10% comm ? creators 614 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 17,
+     "name": "[LIVE EXCLUSIVE] Dr. Groot 3-Step Bundle + Scalp Soothing Shampoo",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732496035550040945",
+     "tiktok_product_id": "1732496035550040945",
+     "model_numbers": [],
+     "growth_pct": 158.0,
+     "revenue_usd": 29964,
+     "revenue_period": "yday rev",
+     "stats_text": "$132.00 price 20% comm ? creators 227 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    }
+   ]
+  },
   {
    "run_date": "2026-10-22",
    "ran_at": "2026-10-23T00:11:43+00:00",
