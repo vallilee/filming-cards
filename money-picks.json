@@ -1,9 +1,130 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-26T00:13:38+00:00",
+ "built_at": "2026-10-29T00:12:52+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-10-28",
+   "ran_at": "2026-10-29T00:12:48+00:00",
+   "still_climbing": 4,
+   "total_picks": 4,
+   "products": [
+    {
+     "rank": 1,
+     "name": "N&T NIETING 9FT Pre-Lit Cedar Style Christmas Garland, Festive Decoration with Built-In Warm LED Lights, Lighted Holiday Displays for Fireplace Mantel, Christmas Aesthetic Decorations for Room",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732444651851846422",
+     "tiktok_product_id": "1732444651851846422",
+     "model_numbers": [],
+     "growth_pct": 2369.0,
+     "revenue_usd": 81282,
+     "revenue_period": "yday rev",
+     "stats_text": "$69.00 price 10% comm 128 creators 1,178 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: 2-Pack Pre-lit Cedar Christmas Garland, 9ft Warm · $59.99 · online only (Allwise Supply)",
+       "store_url": "https://www.walmart.com/ip/2-Pack-Pre-lit-Cedar-Christmas-Garland-9ft-Warm-White-Lights-Flexible-Wired-Vine-Mantel-Staircase-Door-Frame-Realistic-Holiday-Home-Decoration/20987109560?athAsset=eyJhdGhjcGlkIjoiMjA5ODcxMDk1NjAiLCJhdGhzdGlkIjoiQ1MwNDAiLCJhdGhMMSI6IjQwNDQiLCJhdGhhZSI6e30sImF0aHRwIjoidGFpbCJ9&classType=REGULAR"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: 9 FT Artificial Cedar Norfolk Pine Garland with · $50.17 · sold by Target — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=NIETING CEDAR STYLE GARLAND BUILT WARM LIGHTS Target&prds=productid:817849530522847313,headlineOfferDocid:817849530522847313,imageDocid:18152833874936761382,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "MaryRuth's Hair Growth Essentials Bundle - Liquid Morning Multivitamin + Hair Growth 30 oz - Daily Liquid Hair Formula 16 oz - Hair Growth Max 15.22 oz",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732077269114655694",
+     "tiktok_product_id": "1732077269114655694",
+     "model_numbers": [],
+     "growth_pct": 569.0,
+     "revenue_usd": 29670,
+     "revenue_period": "yday rev",
+     "stats_text": "$138.00 price 20% comm 263 creators 215 sold yesterday Kalo page 6",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "MaryRuth's Daily Liquid Hair Support Formula &am · $95.94 · online only (MaryRuth's) — same brand, confirm it's the exact item",
+       "store_url": "https://www.walmart.com/ip/MaryRuth-s-Daily-Liquid-Hair-Support-Formula-Hair-Growth-Max-Liposomal-Multivitamin-Supplement-Bundle/21098062074?athAsset=eyJhdGhjcGlkIjoiMjEwOTgwNjIwNzQiLCJhdGhzdGlkIjoiQ1MwNDAiLCJhdGhMMSI6Ijk3Njc2MCIsImF0aGFlIjp7fSwiYXRodHAiOiJ0YWlsIn0%3D&classType=REGULAR&athbdg=L2005"
+      },
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "in_store",
+       "matched_item": "MaryRuth's Liquid Morning Multivitamin + Hair Gr · $40.99 · Google shows it nearby — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=MaryRuth HAIR GROWTH BUNDLE LIQUID MORNING MULTIVITAMIN Target&prds=catalogid:510652852247763766,productid:9447230430118011004,headlineOfferDocid:1461676462299016912,imageDocid:3913617311053460587,rds:PC_10978782468084800395|PROD_PC_10978782468084800395,gpcid:10978782468084800395,mid:576462913839692756,pvt:hg&hl=en&gl=us&udm=28"
+      },
+      {
+       "store": "Ulta",
+       "match": "exact",
+       "availability": "check_store",
+       "matched_item": "MaryRuth's Liquid Morning Multivitamin + Hair Gr · $39.95 · sold by Ulta — local stock unknown — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=MaryRuth HAIR GROWTH BUNDLE LIQUID MORNING MULTIVITAMIN Ulta Beauty&prds=catalogid:510652852247763766,productid:9447230430118011004,headlineOfferDocid:2597064870346604374,imageDocid:7117088354761005758,rds:PC_10978782468084800395|PROD_PC_10978782468084800395,gpcid:10978782468084800395,mid:576462913839692756,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 3,
+     "name": "Portable Wireless Bluetooth Translator – Stable Connection, Real-Time Translation in 165 Languages, Accent Adaptation, English & Spanish Practice Tool, Restaurant Communication Assistant, AI Language Tutor for All Ages.",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732440023117369513",
+     "tiktok_product_id": "1732440023117369513",
+     "model_numbers": [],
+     "growth_pct": 35.0,
+     "revenue_usd": 23439,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 10% comm 873 creators 601 sold yesterday Kalo page 9",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: AI Voice Translator, Portable Translation Device · $43.97 · online only (Lingzhu Fabric Art)",
+       "store_url": "https://www.walmart.com/ip/AI-Voice-Translator-Portable-Translation-Device-Support-165-Languages-Fast-connection-via-Bluetooth-real-time-voice-translation-suitable-language-lea/20798772677?athAsset=eyJhdGhjcGlkIjoiMjA3OTg3NzI2NzciLCJhdGhzdGlkIjoiQ1MwNDAiLCJhdGhMMSI6IjEyMjk3NDkiLCJhdGhhZSI6e30sImF0aHRwIjoidGFpbCJ9&classType=REGULAR"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
+     "tiktok_product_id": "1729411670017675346",
+     "model_numbers": [],
+     "growth_pct": 55.0,
+     "revenue_usd": 51408,
+     "revenue_period": "yday rev",
+     "stats_text": "$84.00 price 13% comm 1,445 creators 612 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "check_store",
+       "matched_item": "KODAK Dock Plus Retro 4x6 Inch PD460 Photo Print · $129.99 · sold by Target — local stock unknown — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Kodak DOCK PLUS PHOTO PRINTER SHEETS DOCKING Target&prds=productid:13517666467055308046,headlineOfferDocid:13517666467055308046,imageDocid:4418564485027221028,rds:PC_10926059996845980998|PROD_PC_10926059996845980998,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    }
+   ]
+  },
   {
    "run_date": "2026-10-25",
    "ran_at": "2026-10-26T00:13:34+00:00",
