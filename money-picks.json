@@ -1,9 +1,229 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-29T00:12:52+00:00",
+ "built_at": "2026-11-02T01:13:02+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-11-01",
+   "ran_at": "2026-11-02T01:12:58+00:00",
+   "still_climbing": 6,
+   "total_picks": 12,
+   "products": [
+    {
+     "rank": 1,
+     "name": "4Patriots 4-Week Survival Food Kit 192 Servings 25-Year Shelf Life Freeze-Dried Meat Variety Meals Disaster-Resistant Mylar Packaging for Preppers Camping - Storage",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731762187298443565",
+     "tiktok_product_id": "1731762187298443565",
+     "model_numbers": [],
+     "growth_pct": 375.0,
+     "revenue_usd": 60749,
+     "revenue_period": "yday rev",
+     "stats_text": "$279.95 price 10% comm 91 creators 217 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "4Patriots: Black Bean Burger Mix Kit, Survival & · $79.99 · online only (4Patriots) — same brand, confirm it's the exact item",
+       "store_url": "https://www.walmart.com/ip/4Patriots-Black-Bean-Burger-Mix-Kit-Survival-Preparedness-Food-Perfect-Backpacking-Hunting-Designed-25-Year-Shelf-Life-Ready-48-Juicy-Savory-Servings/1583755607?athAsset=eyJhdGhjcGlkIjoiMTU4Mzc1NTYwNyIsImF0aHN0aWQiOiJDUzA0MCIsImF0aEwxIjoiOTc2NzU5IiwiYXRoYWUiOnsiYWVycyI6eyJBRFNfUkVWIjowLjAsIk9SR19BVENSIjowLjAwMzIyNzk0NDcxODY3MzgyNTN9LCJtcnMiOnsiQ1RSIjowLjAwNTE1Mzk5Njg2OTkyMTY4NCwiQVRDUiI6MC4wMDMyMjc5NDQ3MTg2NzM4MjUzLCJDVlIiOjkuNDUzOTM4NjkxODc2ODI5RS00fSwiYWUiOjYuMTEwNDk5MzgwMTU2Mzk4RS00LCJhZXdyIjoiT1JHX0FUQ1IifSwiYXRodHAiOiJ0YWlsIn0%3D&classType=REGULAR"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "CEO's Bundle - Cata-Kor Liposomal Glutathione 500 mg, NMN 1000 mg, NAD+ Advanced 500 mg, CA AKG 1000 mg, Biotin, MSM, TMG, Hyaluronic Acid Capsule Supplements Comprehensive Nutrition Supplement",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732353200834253022",
+     "tiktok_product_id": "1732353200834253022",
+     "model_numbers": [],
+     "growth_pct": 244.0,
+     "revenue_usd": 42864,
+     "revenue_period": "yday rev",
+     "stats_text": "$114.00 price 20% comm 189 creators 376 sold yesterday Kalo page 4",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 3,
+     "name": "Comfrt | Minimalist Crew | Oversized Heavyweight Fleece Soft Crewneck Sweatshirt",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731253206489600899",
+     "tiktok_product_id": "1731253206489600899",
+     "model_numbers": [],
+     "growth_pct": 1547.0,
+     "revenue_usd": 49715,
+     "revenue_period": "yday rev",
+     "stats_text": "$46.55 price 10% comm 296 creators 1,068 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 4,
+     "name": "Comfrt Kids | Minimalist Hoodie | Soft Children's Oversized Hoodie",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1730927717559931779",
+     "tiktok_product_id": "1730927717559931779",
+     "model_numbers": [],
+     "growth_pct": 3131.0,
+     "revenue_usd": 53305,
+     "revenue_period": "yday rev",
+     "stats_text": "$35.00 price 10% comm 338 creators 1,523 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: Autumn Minimalist Trees Pattern Wearable Blanket · $33.99 · online only (ziyaaa)",
+       "store_url": "https://www.walmart.com/ip/Autumn-Minimalist-Trees-Pattern-Wearable-Blankets-Hoodie-Oversize-Sherpa-Wearable-Soft-Blanket-Warm-Cozy-3-14-Age/18428519304?classType=VARIANT"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "Sudrov 42800mAh Solar Rechargeable Battery Power Bank Charger - 15W Fast Boost, Built-in 4 Cables, 7 Outputs, 3 Inputs, Wireless Charging, Dustproof, Dual Flashlights, Carabiner, Thermometer for Smartphones & Phone Accessories (TikTok Shop Back to School)",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729425019323650375",
+     "tiktok_product_id": "1729425019323650375",
+     "model_numbers": [],
+     "growth_pct": 97.0,
+     "revenue_usd": 55066,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.99 price 10% comm 479 creators 1,377 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: Survivor Power Bank Rugged 10000mAh with Solar C · $24.99 · sold by Target — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=SUDROV SOLAR RECHARGEABLE BATTERY POWER BANK Target&prds=catalogid:15121047560000831146,productid:11120529439795897281,headlineOfferDocid:7438560639231157409,imageDocid:8314757338060047983,gpcid:3217864074277486254,mid:576462575311592342,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 6,
+     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
+     "tiktok_product_id": "1729411670017675346",
+     "model_numbers": [],
+     "growth_pct": 77.0,
+     "revenue_usd": 94253,
+     "revenue_period": "yday rev",
+     "stats_text": "$84.99 price 13% comm 2,067 creators 1,109 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "exact",
+       "availability": "check_store",
+       "matched_item": "KODAK Dock Plus Retro 4x6 Inch PD460 Photo Print · $129.99 · sold by Target — local stock unknown — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Kodak DOCK PLUS PHOTO PRINTER SHEETS DOCKING Target&prds=productid:13517666467055308046,headlineOfferDocid:13517666467055308046,imageDocid:4418564485027221028,rds:PC_10926059996845980998|PROD_PC_10926059996845980998,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "5 or 2 High Capacity Emergency Survival Water Straws - Personal Filter for Camping, Hiking, Travel Biking, Survival Preparedness, Lightweight Reusable",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729419146074362732",
+     "tiktok_product_id": "1729419146074362732",
+     "model_numbers": [],
+     "growth_pct": 190.0,
+     "revenue_usd": 41379,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 15% comm ? creators 1,061 sold yesterday Kalo page 4",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 8,
+     "name": "SOARAISE 48000mAh Solar Charger Power Bank, Wireless Portable Charger with 4 Built-in Cables & 7 Outputs,15W Fast Charging Portable Power Bank with USB C, Battery Pack with Flashlight for All Mobile Devices,back to school,back to school haul",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1730902978829587032",
+     "tiktok_product_id": "1730902978829587032",
+     "model_numbers": [],
+     "growth_pct": 73.0,
+     "revenue_usd": 36075,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.00 price 10% comm ? creators 925 sold yesterday Kalo page 6",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "FDA-Cleared LED Face Mask with Red Light Therapy – Infrared & Amber Light, LightBoost Eye Cream + Face & Neck Serum Set",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732201471924867654",
+     "tiktok_product_id": "1732201471924867654",
+     "model_numbers": [],
+     "growth_pct": 653.0,
+     "revenue_usd": 35996,
+     "revenue_period": "yday rev",
+     "stats_text": "$199.98 price 12% comm ? creators 180 sold yesterday Kalo page 6",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "Westinghouse 1000 Lumen Solar Powered LED Lantern - High Lumens Flashlight, Handheld, 5 Adjustable Modes (500/250 Lumen Included), Dual USB/USB-C Charging, Cordless Rechargeable, 4000mAh Power Bank, Solar Top-Up, SOS Mode, Camping Gadget, Gift Idea",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732308279963849156",
+     "tiktok_product_id": "1732308279963849156",
+     "model_numbers": [],
+     "growth_pct": 185.0,
+     "revenue_usd": 29352,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.99 price 12% comm ? creators 734 sold yesterday Kalo page 8",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "Crocs Women’s Dylan Platform Elevated Clogs",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732088511267312574",
+     "tiktok_product_id": "1732088511267312574",
+     "model_numbers": [],
+     "growth_pct": 43.0,
+     "revenue_usd": 28911,
+     "revenue_period": "yday rev",
+     "stats_text": "$69.00 price 10% comm ? creators 419 sold yesterday Kalo page 8",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 12,
+     "name": "Non-Stick Ceramic Cookware Set | Pots, Pans, Lids and Kitchen Storage, PFAS and PFOA Free, Oven Safe Pan Set and Compatible with All Stovetops",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729409493599096880",
+     "tiktok_product_id": "1729409493599096880",
+     "model_numbers": [],
+     "growth_pct": 236.0,
+     "revenue_usd": 27145,
+     "revenue_period": "yday rev",
+     "stats_text": "$445.00 price 15% comm ? creators 61 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    }
+   ]
+  },
   {
    "run_date": "2026-10-28",
    "ran_at": "2026-10-29T00:12:48+00:00",
