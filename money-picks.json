@@ -1,9 +1,85 @@
 {
  "schema_version": 2,
- "built_at": "2026-11-02T01:13:02+00:00",
+ "built_at": "2026-11-05T01:11:22+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-11-04",
+   "ran_at": "2026-11-05T01:11:18+00:00",
+   "still_climbing": 3,
+   "total_picks": 3,
+   "products": [
+    {
+     "rank": 1,
+     "name": "No Grid Survival Projects | SHTF Prepping, Off-grid Living & Homesteading Information | Survive a World without Electricity | 288 Pages Soft Cover",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729449771546940152",
+     "tiktok_product_id": "1729449771546940152",
+     "model_numbers": [],
+     "growth_pct": 59.0,
+     "revenue_usd": 31570,
+     "revenue_period": "yday rev",
+     "stats_text": "$41.00 price 15% comm 230 creators 770 sold yesterday Kalo page 7",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: SHTF Prepping: 100+ Amazing Tips, Tricks, Hacks · $7.20 · sold by Walmart — check shelf at Liverpool",
+       "store_url": "https://www.walmart.com/ip/SHTF-Prepping-100-Amazing-Tips-Tricks-Hacks-DIY-Prepper-Projects-Along-77-Items-You-Need-STHF-Stockpile-Now-Off-Grid-Living-SHTF-Arsenal-Urban-Preppi/53218724?classType=REGULAR"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: Essential Off-Grid Survival Projects : 50 Life-S · $20.79 · sold by Target — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=GRID SURVIVAL PROJECTS SHTF PREPPING LIVING Target&prds=catalogid:15540484627051506211,productid:867155975463933998,headlineOfferDocid:17296933071200950690,imageDocid:400316237238673059,gpcid:7834126825070038437,mid:576462524421286840,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "Enhance & Pop Duo",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732053700815065356",
+     "tiktok_product_id": "1732053700815065356",
+     "model_numbers": [],
+     "growth_pct": 828.0,
+     "revenue_usd": 58962,
+     "revenue_period": "yday rev",
+     "stats_text": "$62.00 price 15% comm 250 creators 951 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 3,
+     "name": "Crocs Adult Cafe Slippers, Fuzzy Slippers",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732480850164487102",
+     "tiktok_product_id": "1732480850164487102",
+     "model_numbers": [],
+     "growth_pct": 165.0,
+     "revenue_usd": 60818,
+     "revenue_period": "yday rev",
+     "stats_text": "$54.99 price 10% comm 648 creators 1,106 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "check_store",
+       "matched_item": "different brand: Crocs Adult Baya Lined Clog · $29.99 · sold by Target — local stock unknown",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=CROCS ADULT CAFE SLIPPERS FUZZY Target&prds=catalogid:15221873768285931010,productid:7622750157568993757,headlineOfferDocid:6975990352181880088,imageDocid:18348245735336181048,rds:PC_8670730826372791151|PROD_PC_8670730826372791151,gpcid:8670730826372791151,mid:576462567050236716,pvt:a&hl=en&gl=us&udm=28"
+      }
+     ]
+    }
+   ]
+  },
   {
    "run_date": "2026-11-01",
    "ran_at": "2026-11-02T01:12:58+00:00",
