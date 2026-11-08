@@ -1,9 +1,315 @@
 {
  "schema_version": 2,
- "built_at": "2026-11-05T01:11:22+00:00",
+ "built_at": "2026-11-08T01:12:34+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-11-07",
+   "ran_at": "2026-11-08T01:12:30+00:00",
+   "still_climbing": 7,
+   "total_picks": 17,
+   "products": [
+    {
+     "rank": 1,
+     "name": "Ninja PossibleCooker Pro Multicooker - MC1001",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729471925145210965",
+     "tiktok_product_id": "1729471925145210965",
+     "model_numbers": [
+      "MC1001"
+     ],
+     "growth_pct": 99990.0,
+     "revenue_usd": 185289,
+     "revenue_period": "yday rev",
+     "stats_text": "$169.99 price 10% comm 658 creators 1,090 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "exact",
+       "availability": "online",
+       "matched_item": "Ninja 14-in-1 PossibleCooker PRO 8.5-qt Multi-Co · $164.99 · online only (TV5ALE)",
+       "store_url": "https://www.walmart.com/ip/Ninja-14-in-1-PossibleCooker-PRO-8-5-qt-Multi-Cooker-Slow-Cooker-Dutch-Oven-Steamer-More-Glass-Lid-Integrated-Spoon-Oven-Safe-Pot-500-F-MC1001-Sea-Sa/1902575826?classType=VARIANT&athbdg=L1103"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: Ninja Foodi PossibleCooker PRO Multi-Cooker · $169.99 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Ninja MC1001 Target&prds=catalogid:6231911868966111521,productid:605216726750676964,headlineOfferDocid:1666243057733820320,imageDocid:17124387137404864832,rds:PC_12356308008540199101|PROD_PC_12356308008540199101,gpcid:12356308008540199101,mid:576462720996759442,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 2,
+     "name": "[medicube] Korean Home Aesthetic Duo l Experience Glass Glow Facial Effect Facial Skincare Set",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729472398099321067",
+     "tiktok_product_id": "1729472398099321067",
+     "model_numbers": [],
+     "growth_pct": 790.0,
+     "revenue_usd": 66310,
+     "revenue_period": "yday rev",
+     "stats_text": "$38.00 price 13% comm 733 creators 1,745 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 3,
+     "name": "WUDS R36S Retro Linux Handheld Video Game Console - 3.5in IPS Screen, 3000mAh Built-in Battery, 32G+64G TF Card - Christmas Presents for Boyfriend, Gifts Adults, Toys for Grown Ups, Cool Gadgets to Buy",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729555160564077031",
+     "tiktok_product_id": "1729555160564077031",
+     "model_numbers": [
+      "R36S"
+     ],
+     "growth_pct": 105.0,
+     "revenue_usd": 76782,
+     "revenue_period": "yday rev",
+     "stats_text": "$50.25 price 10% comm 1,332 creators 1,528 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Walmart",
+       "match": "similar",
+       "availability": "online",
+       "matched_item": "different brand: R36S Open Source Handheld Game Console with GBA · $46.99 · online only (Beauxbaton)",
+       "store_url": "https://www.walmart.com/ip/R36S-Open-Source-Handheld-Game-Console-with-GBA-Dual-Joystick-Purple-128GB/18452822876?classType=REGULAR"
+      }
+     ]
+    },
+    {
+     "rank": 4,
+     "name": "[medicube] Pore-fect SETㅣDeep Pore Cleansing, Gentle Exfoliating Foam Cleanser, Mud Clay MaskㅣExcess Sebum, Korean Skincare",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1730460271165542635",
+     "tiktok_product_id": "1730460271165542635",
+     "model_numbers": [],
+     "growth_pct": 401.0,
+     "revenue_usd": 71225,
+     "revenue_period": "yday rev",
+     "stats_text": "$37.00 price 14% comm 1,865 creators 1,925 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Ulta",
+       "match": "exact",
+       "availability": "in_store",
+       "matched_item": "Medicube Zero Pore Capsule Cleansing Foam · $16.90 · Google shows it nearby — same brand, confirm it's the exact item",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=medicube PORE FECT DEEP CLEANSING GENTLE EXFOLIATING Ulta Beauty&prds=catalogid:9396584801463985460,productid:12565106088157532977,headlineOfferDocid:14636305488355004092,imageDocid:1195497850755542642,rds:PC_5000936044108202709|PROD_PC_5000936044108202709,gpcid:5000936044108202709,mid:576462887547434127,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 5,
+     "name": "[medicube] Gatekeeping My Real Age Set | 5-step Longevity, Anti- Aging Routine l PDRN & Volufiline & Collagen & NAD+ EGF Complex l Cares for Look of Fine Lines, Firming Care, Radiant & Youthful Looking, Plumping | Korean Skincare, K-Beauty",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732363645554692331",
+     "tiktok_product_id": "1732363645554692331",
+     "model_numbers": [],
+     "growth_pct": 101.0,
+     "revenue_usd": 91166,
+     "revenue_period": "yday rev",
+     "stats_text": "$79.00 price 14% comm 3,924 creators 1,154 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 6,
+     "name": "Comfrt | The Dreamer Blanket | Oversized, Cozy, Soft Warm Throw",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729931833196778371",
+     "tiktok_product_id": "1729931833196778371",
+     "model_numbers": [],
+     "growth_pct": 48.0,
+     "revenue_usd": 161186,
+     "revenue_period": "yday rev",
+     "stats_text": "$90.25 price 10% comm 4,211 creators 1,786 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": [
+      {
+       "store": "Target",
+       "match": "similar",
+       "availability": "in_store",
+       "matched_item": "different brand: Threshold Oversized Primalush Throw Blanket · $15.00 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Comfrt DREAMER BLANKET OVERSIZED COZY SOFT WARM Target&prds=catalogid:7263874320576880365,productid:8869040921168207680,headlineOfferDocid:2532025506390903000,rds:PC_10755162788753902675|PROD_PC_10755162788753902675,gpcid:10755162788753902675,mid:576462702432203724,pvt:hg&hl=en&gl=us&udm=28"
+      }
+     ]
+    },
+    {
+     "rank": 7,
+     "name": "[medicube] Affordable Glass Glow Skincare Set | Includes 8 products for Gentle Skin Glow Routine",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729606769780232427",
+     "tiktok_product_id": "1729606769780232427",
+     "model_numbers": [],
+     "growth_pct": 133.0,
+     "revenue_usd": 67239,
+     "revenue_period": "yday rev",
+     "stats_text": "$93.00 price 14% comm 5,217 creators 723 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 8,
+     "name": "SHAPELLX Sheer-Panel with Fleece Lined Tights Stay-Warm Tummy Control Sheer Effect Tights Bodysuit Black Basic",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732519307808379520",
+     "tiktok_product_id": "1732519307808379520",
+     "model_numbers": [],
+     "growth_pct": 124.0,
+     "revenue_usd": 64294,
+     "revenue_period": "yday rev",
+     "stats_text": "$31.00 price 10% comm ? creators 2,074 sold yesterday Kalo page 3",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "BASED Deluxe Straight/Wavy Hair Kit | Shampoo, Conditioner, Texture Powder, Hair Clay, Pomade, Sea Salt Spray + Wooden Comb | Science-Backed, High Performance",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732307769700553014",
+     "tiktok_product_id": "1732307769700553014",
+     "model_numbers": [],
+     "growth_pct": 115.0,
+     "revenue_usd": 57610,
+     "revenue_period": "yday rev",
+     "stats_text": "$70.00 price 10% comm ? creators 823 sold yesterday Kalo page 4",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "[medicube] Kojic Acid Turmeric Power Duo for Face & body | Ideal for Troubled Skin & Use After Spot Care | Soothing & Calming with Kojic Acid, Turmeric, Niacinamide",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731761697513836779",
+     "tiktok_product_id": "1731761697513836779",
+     "model_numbers": [],
+     "growth_pct": 283.0,
+     "revenue_usd": 51415,
+     "revenue_period": "yday rev",
+     "stats_text": "$35.00 price 14% comm ? creators 1,469 sold yesterday Kalo page 5",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "The Iris Best Version Crossbody Bag (#8061) Women's Fashion Saddle Bag - By Iris & Rainbow",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1730594395981975794",
+     "tiktok_product_id": "1730594395981975794",
+     "model_numbers": [],
+     "growth_pct": 156.0,
+     "revenue_usd": 43820,
+     "revenue_period": "yday rev",
+     "stats_text": "$35.00 price 16% comm ? creators 1,252 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 12,
+     "name": "[NEW] [medicube] PDRN Collagen Gua Sha Neck Wrinkle Cream | Built-In Gua Sha Massager with Volufiline 5% + PDRN | Firming, Contour Care for the Look of Fine Lines, Jawline, Neck, Décolleté,Underarms, Chest, Legs, Shoulder | Massage Cream | Korean Skincare",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732399179294806251",
+     "tiktok_product_id": "1732399179294806251",
+     "model_numbers": [],
+     "growth_pct": 232.0,
+     "revenue_usd": 40650,
+     "revenue_period": "yday rev",
+     "stats_text": "$30.00 price 15% comm ? creators 1,355 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 13,
+     "name": "GOPURE Tighten & Smooth Belly Firming Cream",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731398973952594329",
+     "tiktok_product_id": "1731398973952594329",
+     "model_numbers": [],
+     "growth_pct": 128.0,
+     "revenue_usd": 40269,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.99 price 20% comm ? creators 1,007 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 14,
+     "name": "Vans Unisex Old Skool Low Top Shoe",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729486029298504744",
+     "tiktok_product_id": "1729486029298504744",
+     "model_numbers": [],
+     "growth_pct": 1682.0,
+     "revenue_usd": 39150,
+     "revenue_period": "yday rev",
+     "stats_text": "$75.00 price 15% comm ? creators 522 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 15,
+     "name": "Disney Store Mack Hauler Truck with Die-Cast Cars – Cars",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732603733292257418",
+     "tiktok_product_id": "1732603733292257418",
+     "model_numbers": [],
+     "growth_pct": 244.0,
+     "revenue_usd": 38875,
+     "revenue_period": "yday rev",
+     "stats_text": "$89.99 price 10% comm ? creators 432 sold yesterday Kalo page 7",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 16,
+     "name": "tarte the essential skin duo - CC tinted serum + creaseless SPF 30 on-the-go powder",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732422500087993276",
+     "tiktok_product_id": "1732422500087993276",
+     "model_numbers": [],
+     "growth_pct": 240.0,
+     "revenue_usd": 34498,
+     "revenue_period": "yday rev",
+     "stats_text": "$47.00 price 19% comm ? creators 734 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 17,
+     "name": "MaryRuth’s Advanced Hair Care Bundle – Daily Liquid Hair Formula 16 oz & Hair Growth Max Liposomal 15.22 oz",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731846621913650126",
+     "tiktok_product_id": "1731846621913650126",
+     "model_numbers": [],
+     "growth_pct": 201.0,
+     "revenue_usd": 33517,
+     "revenue_period": "yday rev",
+     "stats_text": "$78.68 price 20% comm ? creators 426 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    }
+   ]
+  },
   {
    "run_date": "2026-11-04",
    "ran_at": "2026-11-05T01:11:18+00:00",
