@@ -1,6 +1,6 @@
 {
  "schema_version": 2,
- "built_at": "2026-10-24T18:25:31+00:00",
+ "built_at": "2026-11-17T16:51:33+00:00",
  "site_url": "https://vallilee.github.io/filming-cards/",
  "about": "All In-Aisle Filming hub tabs; see money_picks_url for Money Picks runs.",
  "money_picks_url": "https://vallilee.github.io/filming-cards/money-picks.json",
@@ -2162,6 +2162,336 @@
    "data_url": "https://vallilee.github.io/filming-cards/money-picks.json"
   },
   {
+   "tab_id": "timpicks",
+   "tab_name": "🎯 Tim's Picks",
+   "tab_summary": "22 · coach's Miro board",
+   "previous_name": null,
+   "filters": "Coach Tim's suggested products from his Wednesday Miro board (screenshots 11/17) · 13 high ticket + 9 beauty/lifestyle · price and commission as shown on his cards ('check listing' where the screenshot was too blurry) · 'Look at' = stores that usually carry the brand.",
+   "kalo_pulled": null,
+   "store_check_summary": null,
+   "products": [
+    {
+     "rank": 1,
+     "name": "Roborock Qrevo series robot vacuum",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Roborock%20Qrevo%20series%20robot%20vacuum",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Roborock · Look at Best Buy",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 2,
+     "name": "Ninja SLUSHi Professional Frozen Drink Maker",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Ninja%20SLUSHi%20Professional%20Frozen%20Drink%20Maker",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Ninja · Look at Target · Walmart · Best Buy",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 3,
+     "name": "Nex Playground — active play system",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Nex%20Playground%20%E2%80%94%20active%20play%20system",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Nex Playground · Look at Target · Best Buy",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 4,
+     "name": "Beats Solo 4 on-ear wireless headphones",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Beats%20Solo%204%20on-ear%20wireless%20headphones",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop QVC · Look at Best Buy · Target · Walmart",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 5,
+     "name": "Beats Solo Buds true wireless earbuds",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Beats%20Solo%20Buds%20true%20wireless%20earbuds",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop QVC · Look at Best Buy · Target · Walmart",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 6,
+     "name": "Shark Glossi blow dryer brush HT302",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Shark%20Glossi%20blow%20dryer%20brush%20HT302",
+     "tiktok_product_id": null,
+     "model_numbers": [
+      "HT302"
+     ],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Shark Beauty · Look at Target · Ulta",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 7,
+     "name": "Shark CryoGlow LED face mask FW312",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Shark%20CryoGlow%20LED%20face%20mask%20FW312",
+     "tiktok_product_id": null,
+     "model_numbers": [
+      "FW312"
+     ],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Shark Beauty · Look at Ulta · Target",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 8,
+     "name": "SNOWCLAD 10/14-piece tri-ply cookware set",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=SNOWCLAD%2010/14-piece%20tri-ply%20cookware%20set",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop SNOWCLAD",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "NOCO Boost X GBX155 4250A jump starter",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=NOCO%20Boost%20X%20GBX155%204250A%20jump%20starter",
+     "tiktok_product_id": null,
+     "model_numbers": [
+      "GBX155"
+     ],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop NOCO · Look at Walmart · Home Depot · AutoZone",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "Smart wall heater 1500W (no AC)",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Smart%20wall%20heater%201500W%20%28no%20AC%29",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Coolbreeze · Look at Home Depot · Lowe's",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "SHOKZ OpenRun Pro 2 bone-conduction headphones",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=SHOKZ%20OpenRun%20Pro%202%20bone-conduction%20headphones",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop SHOKZ · Look at Best Buy · Dick's",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 12,
+     "name": "Ninja single-serve Pods & Grounds coffee maker",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Ninja%20single-serve%20Pods%20%26%20Grounds%20coffee%20maker",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Ninja · Look at Target · Walmart · Kohl's",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 13,
+     "name": "Skullcandy Crusher Evo bass headphones",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Skullcandy%20Crusher%20Evo%20bass%20headphones",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Skullcandy · Look at Target · Walmart · Best Buy",
+     "badges": [
+      "High ticket"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 14,
+     "name": "Color Wow Dry Texture Spray",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Color%20Wow%20Dry%20Texture%20Spray",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 13.0,
+     "revenue_usd": 41,
+     "revenue_period": "",
+     "stats_text": "Shop Color Wow Hair · Look at Ulta · Sephora",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 15,
+     "name": "Color Wow Big Bombshell Hair Bundle",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Color%20Wow%20Big%20Bombshell%20Hair%20Bundle",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 15.0,
+     "revenue_usd": 70,
+     "revenue_period": "",
+     "stats_text": "Shop Color Wow Hair · Look at Ulta · Sephora",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 16,
+     "name": "e.l.f. Build Your Glow Up Lip Trio (3-piece)",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=e.l.f.%20Build%20Your%20Glow%20Up%20Lip%20Trio%20%283-piece%29",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 13.0,
+     "revenue_usd": 19,
+     "revenue_period": "",
+     "stats_text": "Shop e.l.f. Cosmetics · Look at Target · Walmart · Ulta",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 17,
+     "name": "medicube Smooth & Clear Body Care",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=medicube%20Smooth%20%26%20Clear%20Body%20Care",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 13.0,
+     "revenue_usd": 40,
+     "revenue_period": "–$110.50",
+     "stats_text": "Shop medicube US Store",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 18,
+     "name": "Comfrt The Dreamer Blanket (oversized)",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Comfrt%20The%20Dreamer%20Blanket%20%28oversized%29",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 10.0,
+     "revenue_usd": 123,
+     "revenue_period": "–$258.70",
+     "stats_text": "Shop Comfrt",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 19,
+     "name": "OEAK Women Jelly Bras, wirefree",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=OEAK%20Women%20Jelly%20Bras%2C%20wirefree",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": 6.0,
+     "revenue_usd": 24,
+     "revenue_period": "–$28.09",
+     "stats_text": "Shop OEAK Apparel",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 20,
+     "name": "Bella Vita Luxury Honey Oud Eau de Parfum",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=Bella%20Vita%20Luxury%20Honey%20Oud%20Eau%20de%20Parfum",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop Bella Vita",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 21,
+     "name": "tarte CC color-correcting tinted serum",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=tarte%20CC%20color-correcting%20tinted%20serum",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop tarte cosmetics · Look at Ulta · Sephora",
+     "badges": [],
+     "store_matches": []
+    },
+    {
+     "rank": 22,
+     "name": "JYU Renewal & Rejuvenation Toner Pads",
+     "tiktok_shop_url": "https://www.tiktok.com/search?q=JYU%20Renewal%20%26%20Rejuvenation%20Toner%20Pads",
+     "tiktok_product_id": null,
+     "model_numbers": [],
+     "growth_pct": null,
+     "revenue_usd": null,
+     "revenue_period": "check listing",
+     "stats_text": "Shop JYU",
+     "badges": [],
+     "store_matches": []
+    }
+   ],
+   "data_url": null
+  },
+  {
    "tab_id": "matches",
    "tab_name": "🔗 Store Matches",
    "tab_summary": "exact + close",
@@ -2172,48 +2502,34 @@
    "products": [
     {
      "rank": 1,
-     "name": "GOPURE Tighten & Smooth Belly Firming Cream",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731398973952594329",
-     "tiktok_product_id": "1731398973952594329",
+     "name": "Mellow Sleep | MarshMellow Comforter - Double-Stuffed Ultra-Soft A-Class Fabric Heat-Adaptive Vegan Fill OEKO-TEX Certified Machine Washable",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732017379984117841",
+     "tiktok_product_id": "1732017379984117841",
      "model_numbers": [],
      "growth_pct": null,
      "revenue_usd": null,
      "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #05 in store / nearby",
-     "badges": [],
-     "store_matches": [
-      {
-       "store": "Target",
-       "match": "exact",
-       "availability": "in_store",
-       "matched_item": "Gopure Tighten & Smooth Belly Cream · $29.99 · Google shows it nearby — same brand, confirm it's the exact item",
-       "store_url": "https://www.google.com/search?ibp=oshop&q=GOPURE TIGHTEN SMOOTH BELLY FIRMING CREAM Target&prds=catalogid:10536558758128089709,productid:6258447995703505090,headlineOfferDocid:15091108924698367800,imageDocid:1982106552006927990,rds:PC_9223648449547101005|PROD_PC_9223648449547101005,gpcid:9223648449547101005,pvt:hg&hl=en&gl=us&udm=28"
-      }
-     ]
-    },
-    {
-     "rank": 2,
-     "name": "[NEW] [medicube] PDRN Collagen Gua Sha Neck Wrinkle Cream | Built-In Gua Sha Massager with Volufiline 5% + PDRN | Firming, Contour Care for the Look of Fine Lines, Jawline, Neck, Décolleté,Underarms, Chest, Legs, Shoulder | Massage Cream | Korean Skincare",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732399179294806251",
-     "tiktok_product_id": "1732399179294806251",
-     "model_numbers": [],
-     "growth_pct": null,
-     "revenue_usd": null,
-     "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #06 in store / nearby",
+     "stats_text": "💰 Money Picks 2026-10-22 #05 in store / nearby",
      "badges": [],
      "store_matches": [
       {
        "store": "Walmart",
        "match": "exact",
+       "availability": "online",
+       "matched_item": "Mellow Sleep| MarshMellow Comforter - Double-Stu · $220.00 · online only (Lucy Carter) — same brand, confirm it's the exact item",
+       "store_url": "https://www.walmart.com/ip/Mellow-Sleep-MarshMellow-Comforter-Double-Stuffed-Ultra-Soft-A-Class-Fabric-Heat-Adaptive-Vegan-Fill-OEKO-TEX-Certified-Machine-Washable/20780774410?classType=VARIANT"
+      },
+      {
+       "store": "Target",
+       "match": "similar",
        "availability": "in_store",
-       "matched_item": "Medicube PDRN Pink Collagen Capsule Cream, 1.94 · $21.97 · sold by Walmart — check shelf at Liverpool — same brand, confirm it's the exact item",
-       "store_url": "https://www.walmart.com/ip/Medicube-RED-SUCCINIC-PEELING-PAD-2024/20068706439?classType=REGULAR&athbdg=L1103"
+       "matched_item": "different brand: Mellow MarshMellow Comforter · $135.99 · Google shows it nearby",
+       "store_url": "https://www.google.com/search?ibp=oshop&q=Mellow SLEEP MARSHMELLOW COMFORTER DOUBLE STUFFED ULTRA Target&prds=catalogid:14942078388903576,productid:11490522130331702752,headlineOfferDocid:12338166306837663530,imageDocid:4442356671158736645,gpcid:8920161055966176100,mid:576462887314670284,pvt:hg&hl=en&gl=us&udm=28"
       }
      ]
     },
     {
-     "rank": 3,
+     "rank": 2,
      "name": "🎄 HOODINK 2PCS 2FT 24-LED Flexible Birch Tree Twinkle Lights - USB A Powered, Indoor Outdoor Patio Party Decorations, Room Accessories, Christmas Light for Home Ambience",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1730215554798686725",
      "tiktok_product_id": "1730215554798686725",
@@ -2248,7 +2564,7 @@
      ]
     },
     {
-     "rank": 4,
+     "rank": 3,
      "name": "🎄 INSOON Advent Calendar 2026 Gingerbread House Mini Building Set with Lights | 24 Days Countdown Christmas Village Building Blocks with Xmas Tree Train, Holiday Gift for Adults Girls Boys Ages 12+",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732415413642695089",
      "tiktok_product_id": "1732415413642695089",
@@ -2283,7 +2599,7 @@
      ]
     },
     {
-     "rank": 5,
+     "rank": 4,
      "name": "🎄 【Lush & Full】Yaheetech Multi-Size Snow Flocked Pre-lit Artificial Christmas Tree (4.5/6/7.5/9FT) with 250 Warm White Lights, 820 Branch Tips, Foldable Stand, Festive Home Decor for Holiday Decorating & Gifting",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729607576267100483",
      "tiktok_product_id": "1729607576267100483",
@@ -2318,28 +2634,7 @@
      ]
     },
     {
-     "rank": 6,
-     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
-     "tiktok_product_id": "1729411670017675346",
-     "model_numbers": [],
-     "growth_pct": null,
-     "revenue_usd": null,
-     "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #03 online",
-     "badges": [],
-     "store_matches": [
-      {
-       "store": "Target",
-       "match": "exact",
-       "availability": "check_store",
-       "matched_item": "KODAK Dock Plus Retro 4x6 Inch PD460 Photo Print · $119.99 · sold by Target — local stock unknown — same brand, confirm it's the exact item",
-       "store_url": "https://www.google.com/search?ibp=oshop&q=KODAK DOCK PLUS PHOTO PRINTER SHEETS DOCKING Target&prds=productid:13517666467055308046,headlineOfferDocid:13517666467055308046,imageDocid:4418564485027221028,rds:PC_10926059996845980998|PROD_PC_10926059996845980998,pvt:hg&hl=en&gl=us&udm=28"
-      }
-     ]
-    },
-    {
-     "rank": 7,
+     "rank": 5,
      "name": "🎄 Universal Socket Tools Gifts for Men - Christmas Stocking Stuffers for Men Cool Stuff Ideas Gadgets Birthday Gifts for Him Dad Husband Women Grip Socket Set with Power Drill Adapter (7‑19mm)",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732589394696967059",
      "tiktok_product_id": "1732589394696967059",
@@ -2367,28 +2662,7 @@
      ]
     },
     {
-     "rank": 8,
-     "name": "BASED Deluxe Straight/Wavy Hair Kit | Shampoo, Conditioner, Texture Powder, Hair Clay, Pomade, Sea Salt Spray + Wooden Comb | Science-Backed, High Performance",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732307769700553014",
-     "tiktok_product_id": "1732307769700553014",
-     "model_numbers": [],
-     "growth_pct": null,
-     "revenue_usd": null,
-     "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #01 in store / nearby",
-     "badges": [],
-     "store_matches": [
-      {
-       "store": "Target",
-       "match": "similar",
-       "availability": "in_store",
-       "matched_item": "different brand: Function of Beauty Custom Wavy Hair Shampoo Base · $9.99 · Google shows it nearby",
-       "store_url": "https://www.google.com/search?ibp=oshop&q=BASED DELUXE STRAIGHT WAVY HAIR SHAMPOO CONDITIONER Target&prds=catalogid:16032805966452144791,productid:11284577254818176653,headlineOfferDocid:828653713646226923,imageDocid:17935399822012727873,rds:PC_1514647068042802943|PROD_PC_1514647068042802943,gpcid:1514647068042802943,mid:576462898020305964,pvt:hg&hl=en&gl=us&udm=28"
-      }
-     ]
-    },
-    {
-     "rank": 9,
+     "rank": 6,
      "name": "🎄 Christmas Ornament Hanger, Home & Festive Party Supplies, Christmas Decoration Accessory",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732538374852481240",
      "tiktok_product_id": "1732538374852481240",
@@ -2409,7 +2683,7 @@
      ]
     },
     {
-     "rank": 10,
+     "rank": 7,
      "name": "🎄 2026 New USB Plug-In Christmas Projector Night Light, 6+ Holiday Pattern Ceiling Lamp, Warm LED Christmas Tree Room Decor for Bedroom, Party & Holiday Gifts",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729535698813359856",
      "tiktok_product_id": "1729535698813359856",
@@ -2444,7 +2718,7 @@
      ]
     },
     {
-     "rank": 11,
+     "rank": 8,
      "name": "🦃 4-Pack Artificial Flower Wall Hangings, Orchid Petals, Faux Floral Decor for Fall, Thanksgiving & Harvest Festival, Suitable for Garden & Courtyard, Faux Flowers",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731698213348544689",
      "tiktok_product_id": "1731698213348544689",
@@ -2479,7 +2753,7 @@
      ]
     },
     {
-     "rank": 12,
+     "rank": 9,
      "name": "🎄 Frameless 3D Beaded Christmas Pearl Diamond Painting, Xmas Wreath Stocking Mosaic Art, Stress Relief DIY Home Wall Decoration",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729516603393218339",
      "tiktok_product_id": "1729516603393218339",
@@ -2500,7 +2774,7 @@
      ]
     },
     {
-     "rank": 13,
+     "rank": 10,
      "name": "🎄 Sikaic Twin Low Loft Bed with Tent, 5 Storage Drawers, LED Lights & Bookcase, Metal Loft Bed Frame with 13.8\" High Safety Guardrail, Inclined Ladder, Under-Bed Play Space, Black, Home Furniture Christmas Gifts [SohoChic]",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729502505397032132",
      "tiktok_product_id": "1729502505397032132",
@@ -2521,7 +2795,7 @@
      ]
     },
     {
-     "rank": 14,
+     "rank": 11,
      "name": "🦃 2-Pack 13.5in Glass Mason Jar Fall Table Decor with Timer, 2 Styles, 20 LED Lights, White Maple Leaves, Pumpkins, Berries, Eucalyptus, Switch, Print - Cozy Thanksgiving Centerpieces for Dining Kitchen Home",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732469507902575095",
      "tiktok_product_id": "1732469507902575095",
@@ -2549,7 +2823,7 @@
      ]
     },
     {
-     "rank": 15,
+     "rank": 12,
      "name": "🎄 sohochic 2 Pcs Artificial Christmas Hanging Baskets - Red Berries, Greenery - Durable Plastic Decor Ornaments, Party Decoration Supplies for Christmas Home Porches, Gardens",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732516042489959204",
      "tiktok_product_id": "1732516042489959204",
@@ -2570,7 +2844,7 @@
      ]
     },
     {
-     "rank": 16,
+     "rank": 13,
      "name": "🎄 Christmas Reindeer and Santa's Sleigh Wall Decor – Multicolor LED Holiday Wall Decal Light; Suitable for Christmas Decoration in Living Rooms, Bedrooms, and Entryways",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732629091539653560",
      "tiktok_product_id": "1732629091539653560",
@@ -2591,7 +2865,7 @@
      ]
     },
     {
-     "rank": 17,
+     "rank": 14,
      "name": "🎃 Adult Capybara Inflatable Costume - Leaf-Top Head, Round Belly Look, Fun Accessory, Party-Ready Fun, Cartoon Inflatable Character Party Clothing for Halloween Cosplay",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732327210861564334",
      "tiktok_product_id": "1732327210861564334",
@@ -2612,7 +2886,7 @@
      ]
     },
     {
-     "rank": 18,
+     "rank": 15,
      "name": "🦃 TURNMEON 5 FT Shiny Waterproof Pop-Up Tinsel Maple Leaf Tree, 50 Warm White Lights & Orange Pumpkin Ornaments, Battery-Operated Festive Home Decoration for Harvest Thanksgiving Indoor Use",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732467245135335927",
      "tiktok_product_id": "1732467245135335927",
@@ -2640,7 +2914,7 @@
      ]
     },
     {
-     "rank": 19,
+     "rank": 16,
      "name": "🎃 Halloween Decorations Outdoor - 5 FT Large Hanging Swing Ghost with Remote Controlled Warm LED Lights, Cute & Spooky Halloween Ornament for Tree, Yard, Front Porch, Garden",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732511949556519836",
      "tiktok_product_id": "1732511949556519836",
@@ -2668,7 +2942,7 @@
      ]
     },
     {
-     "rank": 20,
+     "rank": 17,
      "name": "🎄 6 FT 2 Pcs Artificial Cedar Garlands, Real Touch Winter Cedar Garland, Green Artificial Greenery Pine Garland for Table, Mantle, Wall, Indoor, Outdoor Christmas Decorations tiktokshopbacktoschool",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732539025029370768",
      "tiktok_product_id": "1732539025029370768",
@@ -2703,7 +2977,7 @@
      ]
     },
     {
-     "rank": 21,
+     "rank": 18,
      "name": "🎃 1pc LED Laser Light - Red & Green Cylindrical Design for KTV Bars & Private Rooms - Remote Control - Gift for Home Audio & Video Enthusiasts - Christmas & Halloween Atmosphere - Ocean Projector Disco Ball, Led Neon Sign, Colorful Ambient Light,sohochic",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731665599073456476",
      "tiktok_product_id": "1731665599073456476",
@@ -2731,7 +3005,7 @@
      ]
     },
     {
-     "rank": 22,
+     "rank": 19,
      "name": "🎄 2 Pack 6/9FT Christmas Cedar Garland with Lights Prelit Pine Garland Christmas Decor",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732591467722084451",
      "tiktok_product_id": "1732591467722084451",
@@ -2766,7 +3040,7 @@
      ]
     },
     {
-     "rank": 23,
+     "rank": 20,
      "name": "🍂 Women's Two-Piece Sporty, Long Sleeve Top & High-Waisted Pants, Breathable Yoga Gym Running Wear, Spring Fall Fitness Apparel, Activewear Fitness Outfit",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732432763475301303",
      "tiktok_product_id": "1732432763475301303",
@@ -2787,7 +3061,7 @@
      ]
     },
     {
-     "rank": 24,
+     "rank": 21,
      "name": "🎃 Muezna Men's Thermal 2-Piece Base Layer Set - Athletic Retro Lightweight Plus Size Elastic Breathable Jacket & Sweatpants, Stretch Fabric with Fur Liner, Ideal for Cold Winter Sports, Halloween & Christmas",
      "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729417063810502904",
      "tiktok_product_id": "1729417063810502904",
@@ -2808,44 +3082,44 @@
      ]
     },
     {
-     "rank": 25,
-     "name": "JOYIN Advent Calendar 2026 Christmas Stress Relief Toy 24PCS Squeeze",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732706179292893191",
-     "tiktok_product_id": "1732706179292893191",
+     "rank": 22,
+     "name": "Strawberry Confection Girl Costume",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731846533953131354",
+     "tiktok_product_id": "1731846533953131354",
      "model_numbers": [],
      "growth_pct": null,
      "revenue_usd": null,
      "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #02 online",
+     "stats_text": "💰 Money Picks 2026-10-22 #01 online",
      "badges": [],
      "store_matches": [
       {
        "store": "Walmart",
        "match": "similar",
        "availability": "online",
-       "matched_item": "different brand: 2026 Squishy Christmas Advent Calendar Squeeze T · $15.99 · online only (LSQEDY)",
-       "store_url": "https://www.walmart.com/ip/2026-Squishy-Christmas-Advent-Calendar-Squeeze-Toy-Calendar-24-Days-of-Dumpling-Joy-Stress-Relief-Toys-Set-Cute-Festive-Holiday-Party-Favors/20939009935?classType=REGULAR"
+       "matched_item": "different brand: Orange Blossom Strawberry Shortcake Girl's Costu · $39.99 · online only (HalloweenCostumes)",
+       "store_url": "https://www.walmart.com/ip/Orange-Blossom-Strawberry-Shortcake-Girl-s-Costume-TV-Show-Costumes/20896906439?classType=VARIANT"
       }
      ]
     },
     {
-     "rank": 26,
-     "name": "SHAPELLX Sheer-Panel with Fleece Lined Tights Stay-Warm Tummy Control Sheer Effect Tights Bodysuit Black Basic",
-     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732519307808379520",
-     "tiktok_product_id": "1732519307808379520",
+     "rank": 23,
+     "name": "[Estée Lauder] Beautiful Perfumed Body Powder | Fragrance | Luxury | Floral Scented | Shimmer",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729389459812029421",
+     "tiktok_product_id": "1729389459812029421",
      "model_numbers": [],
      "growth_pct": null,
      "revenue_usd": null,
      "revenue_period": "",
-     "stats_text": "💰 Money Picks 2026-10-17 #04 online",
+     "stats_text": "💰 Money Picks 2026-10-22 #02 online",
      "badges": [],
      "store_matches": [
       {
-       "store": "Target",
+       "store": "Walmart",
        "match": "similar",
-       "availability": "check_store",
-       "matched_item": "different brand: Memoi Women's Sheer Effect Fleece Lined Tights · $28.95 · sold by Target — local stock unknown",
-       "store_url": "https://www.google.com/search?ibp=oshop&q=SHAPELLX SHEER PANEL FLEECE LINED TIGHTS STAY Target&prds=catalogid:2897397964235563205,productid:10254474471202662911,headlineOfferDocid:1650700908473604556,imageDocid:17593284074366885698,gpcid:12550708046950849021,mid:576462566251444533,pvt:a&hl=en&gl=us&udm=28"
+       "availability": "online",
+       "matched_item": "different brand: Estee Lauder Beautiful Perfumed Body Powder with · $53.55 · online only (Local Love LLC)",
+       "store_url": "https://www.walmart.com/ip/Estee-Lauder-Beautiful-Perfumed-Body-Powder-with-Puff-For-Women-3-5-oz-100g-NEW-IN-BOX/2955829476?classType=REGULAR"
       }
      ]
     }
