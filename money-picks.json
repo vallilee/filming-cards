@@ -1,9 +1,276 @@
 {
  "schema_version": 2,
- "built_at": "2026-11-08T01:12:34+00:00",
+ "built_at": "2026-11-20T14:40:59+00:00",
  "page_url": "https://vallilee.github.io/filming-cards/kalo-scout.html",
  "filters": "Victor's filter: Kalodata ranking for yesterday, top 100 by revenue · growth 30%+ · price $30+ · commission 10%+ · video sales > 0 · 30-day trend still climbing",
  "runs": [
+  {
+   "run_date": "2026-11-20",
+   "ran_at": "2026-11-20T14:40:51+00:00",
+   "still_climbing": 8,
+   "total_picks": 17,
+   "products": [
+    {
+     "rank": 1,
+     "name": "Torepx Summerfinds GEN 1 BPA-Free Latex-Free Red & Blue Kids' Basic Ride-On Toy Bike - Children Development Tool, City Simulation, House Decoration, Video Games Compatible, 24h Support",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729482094202033342",
+     "tiktok_product_id": "1729482094202033342",
+     "model_numbers": [],
+     "growth_pct": 819600.0,
+     "revenue_usd": 379404,
+     "revenue_period": "yday rev",
+     "stats_text": "$324.00 price 10% comm 7 creators 1,171 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 2,
+     "name": "Insignia - 50 Class F50 Series LED 4K UHD Smart Fire TV",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732780229320676157",
+     "tiktok_product_id": "1732780229320676157",
+     "model_numbers": [
+      "F50"
+     ],
+     "growth_pct": 922.0,
+     "revenue_usd": 184793,
+     "revenue_period": "yday rev",
+     "stats_text": "$299.99 price 10% comm 421 creators 616 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 3,
+     "name": "NOCO Boost X GBX155 4250A Jump Starter for 10.0L Gasoline and 8.0L Diesel Engines",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729754961320252226",
+     "tiktok_product_id": "1729754961320252226",
+     "model_numbers": [
+      "GBX155"
+     ],
+     "growth_pct": 105.0,
+     "revenue_usd": 143812,
+     "revenue_period": "yday rev",
+     "stats_text": "$314.00 price 10% comm 469 creators 458 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 4,
+     "name": "Skullcandy Crusher Evo - Bass Headphones with Personal Sound | True Wireless | Bluetooth 5.0 | Built-in Microphone Portable Audio Headphones Headset Audio",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731084063732043853",
+     "tiktok_product_id": "1731084063732043853",
+     "model_numbers": [],
+     "growth_pct": 98.0,
+     "revenue_usd": 118876,
+     "revenue_period": "yday rev",
+     "stats_text": "$89.99 price 15% comm 833 creators 1,321 sold yesterday Kalo page 3",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 5,
+     "name": "Mercer Medium Logo and Leather Accordion Crossbody Bag",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732567802242502785",
+     "tiktok_product_id": "1732567802242502785",
+     "model_numbers": [],
+     "growth_pct": 425.0,
+     "revenue_usd": 144624,
+     "revenue_period": "yday rev",
+     "stats_text": "$69.00 price 10% comm 1,298 creators 2,096 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 6,
+     "name": "Nex Playground – The Active Play System for Kids & Families Game Console",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729472017600516508",
+     "tiktok_product_id": "1729472017600516508",
+     "model_numbers": [],
+     "growth_pct": 4714.0,
+     "revenue_usd": 1692837,
+     "revenue_period": "yday rev",
+     "stats_text": "$239.00 price 20% comm 2,650 creators 7,083 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 7,
+     "name": "KODAK Dock Plus 4x6'' Photo Printer, 50 Sheets, Docking & Bluetooth Smartphone Printer for iPhone & Android, Instant Color Prints, 4PASS Dye Sublimation",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729411670017675346",
+     "tiktok_product_id": "1729411670017675346",
+     "model_numbers": [],
+     "growth_pct": 50.0,
+     "revenue_usd": 169810,
+     "revenue_period": "yday rev",
+     "stats_text": "$84.99 price 13% comm 4,538 creators 1,998 sold yesterday Kalo page 2",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 8,
+     "name": "Comfrt | The Dreamer Blanket | Oversized, Cozy, Soft Warm Throw",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729931833196778371",
+     "tiktok_product_id": "1729931833196778371",
+     "model_numbers": [],
+     "growth_pct": 60.0,
+     "revenue_usd": 266598,
+     "revenue_period": "yday rev",
+     "stats_text": "$90.25 price 10% comm 4,804 creators 2,954 sold yesterday Kalo page 1",
+     "badges": [
+      "▲ still climbing"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 9,
+     "name": "Mellow Sleep | Mellow Puff Pillow – Soft Quilted Puff Grid Design Pillow, Fluffy Plush Bed Pillow with Cloud Like Comfort, Breathable Support Pillow for Side, Back & Stomach Sleepers, Cozy Bed Pillow for Better Sleep",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729494528714773585",
+     "tiktok_product_id": "1729494528714773585",
+     "model_numbers": [],
+     "growth_pct": 32.0,
+     "revenue_usd": 102479,
+     "revenue_period": "yday rev",
+     "stats_text": "$49.99 price 13% comm ? creators 2,050 sold yesterday Kalo page 4",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 10,
+     "name": "【Creator’s Pick】Halara UltraSculpt High Waisted Stretchy PU Tummy Control Yoga Leggings with Pocket",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732603065372480350",
+     "tiktok_product_id": "1732603065372480350",
+     "model_numbers": [],
+     "growth_pct": 70.0,
+     "revenue_usd": 66824,
+     "revenue_period": "yday rev",
+     "stats_text": "$34.95 price 10% comm ? creators 1,912 sold yesterday Kalo page 6",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 11,
+     "name": "[THOME Official] The Glow Signature launching SET ㅣ LDM Device + device optimized peptide boost Ampoule 1 or 3",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732416463800078581",
+     "tiktok_product_id": "1732416463800078581",
+     "model_numbers": [],
+     "growth_pct": 107.0,
+     "revenue_usd": 55880,
+     "revenue_period": "yday rev",
+     "stats_text": "$254.00 price 15% comm ? creators 220 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 12,
+     "name": "INIA GLOW 940 nm 4D LED Mask – Dual NIR 940 + 850 nm Deep Penetration for Deeper Repair, Red Light Therapy Mask for Visible Lift & Lasting Radiance, 4D Fit for Jawline Lift & Firm, Cooling Therapy, Wireless Comfort, Gifts for Women, Black Friday deals",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731704345428267282",
+     "tiktok_product_id": "1731704345428267282",
+     "model_numbers": [],
+     "growth_pct": 97.0,
+     "revenue_usd": 55094,
+     "revenue_period": "yday rev",
+     "stats_text": "$189.98 price 11% comm ? creators 290 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 13,
+     "name": "【Black Friday】 Dowinx Ergonomic Massage Lumbar Gaming Chair with Footrest , Ergonomic Computer Chair 330lbs with Headrest Pillow for Office, Home, Streaming and Long Gaming Sessions",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732306620069417457",
+     "tiktok_product_id": "1732306620069417457",
+     "model_numbers": [],
+     "growth_pct": 152.0,
+     "revenue_usd": 53597,
+     "revenue_period": "yday rev",
+     "stats_text": "$70.99 price 12% comm ? creators 755 sold yesterday Kalo page 9",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 14,
+     "name": "MAC 24 Days Of MAC Icons Advent Calendar",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732704879180223129",
+     "tiktok_product_id": "1732704879180223129",
+     "model_numbers": [],
+     "growth_pct": 104.0,
+     "revenue_usd": 53000,
+     "revenue_period": "yday rev",
+     "stats_text": "$250.00 price 15% comm ? creators 212 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 15,
+     "name": "Bluey Toniebox 2 Cloud Pink Starter Set Bundle with Bluey, Bingo, and Muffin Tonies",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1732552230009344024",
+     "tiktok_product_id": "1732552230009344024",
+     "model_numbers": [],
+     "growth_pct": 4712.0,
+     "revenue_usd": 52244,
+     "revenue_period": "yday rev",
+     "stats_text": "$189.98 price 10% comm ? creators 275 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 16,
+     "name": "April Satin Pant",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1731468041024738009",
+     "tiktok_product_id": "1731468041024738009",
+     "model_numbers": [],
+     "growth_pct": 37.0,
+     "revenue_usd": 51563,
+     "revenue_period": "yday rev",
+     "stats_text": "$52.19 price 15% comm ? creators 988 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    },
+    {
+     "rank": 17,
+     "name": "FEPPO Warming Mat for Food, Rapid and Full Surface Heating 6 Temp Levels, 6H Timer, Portable Silicone Electric Food Heating Mat for Countertop Buffet Party, Keep Food Warm",
+     "tiktok_shop_url": "https://shop.tiktok.com/us/pdp/1729560150487503585",
+     "tiktok_product_id": "1729560150487503585",
+     "model_numbers": [],
+     "growth_pct": 104.0,
+     "revenue_usd": 51347,
+     "revenue_period": "yday rev",
+     "stats_text": "$39.62 price 10% comm ? creators 1,296 sold yesterday Kalo page 10",
+     "badges": [
+      "not checked yet"
+     ],
+     "store_matches": []
+    }
+   ]
+  },
   {
    "run_date": "2026-11-07",
    "ran_at": "2026-11-08T01:12:30+00:00",
